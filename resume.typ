@@ -80,7 +80,7 @@
 #resume_section(
     "Summary",
     [
-        Platform Engineer with 5+ years building cloud infrastructure and developer platforms at Fortune 500 companies. Delivered \$5M+ in annual cost savings through multi-layered AWS optimization (RDS, EC2, S3, KMS). Led GitHub Enterprise migrations for 200+ developers and built internal developer platforms serving 300+ service templates. Three-time GitHub Star (2021-2023).
+        Platform Engineer with 5+ years building cloud infrastructure and developer platforms at Fortune 500 companies. Led teams of 6-8 engineers delivering $5M+ in AWS cost savings and 96% P0 incident reduction. Built internal developer platforms serving 300+ service templates and migrated 200+ developers to GitHub Enterprise. Three-time GitHub Star (2021-2023).
     ],
 )
 
@@ -120,8 +120,7 @@
             [
                 - Deployed Backstage.io developer portal at Broadcom, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
                 - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE blueprints, reducing new market launch time from 6 months to 2 weeks (Denmark launch)
-                - Implemented SBOM generation pipeline at Broadcom to meet EO 14028 cybersecurity requirements for federal contract eligibility
-                - Delivered Backstage.io MVP for McKinsey in 3 months with 300+ reusable service blueprints focused on single-button deployment workflows
+                - Delivered Backstage.io MVP for McKinsey with 300+ self-service blueprints, enabling single-button deployments
             ]
         )
     ],
