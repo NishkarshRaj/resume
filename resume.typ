@@ -80,7 +80,7 @@
 #resume_section(
     "Summary",
     [
-        Platform Engineer with 5+ years building cloud infrastructure and developer platforms at Fortune 500 companies. Led teams of 6-8 engineers delivering $5M+ in AWS cost savings and 96% P0 incident reduction. Built internal developer platforms serving 300+ service templates and migrated 200+ developers to GitHub Enterprise. Three-time GitHub Star (2021-2023).
+        Platform Engineer with 5+ years building cloud infrastructure and developer platforms at Fortune 500 companies. Led teams of 6-8 engineers delivering \$5M+ in AWS cost savings and 96% P0 incident reduction. Built internal developer platforms serving 300+ service templates and migrated 200+ developers to GitHub Enterprise. Three-time GitHub Star (2021-2023).
     ],
 )
 
