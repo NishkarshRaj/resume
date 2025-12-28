@@ -80,22 +80,22 @@
 #resume_section(
     "Summary",
     [
-        Platform Engineering Architect & DevOps Leader with 5+ years of expertise driving enterprise-scale digital transformation and cost optimization initiatives. Proven track record of delivering \$1.8M+ in infrastructure savings while architecting self-healing systems, implementing AIOps solutions, and leading cross-functional teams through complex cloud migrations. Specialized in building developer experience platforms and DevSecOps frameworks that enhance team velocity, reduce MTTR, and ensure enterprise compliance.
+        Platform Engineer with 5+ years building cloud infrastructure and developer platforms at Fortune 500 companies. Delivered \$5M+ in annual cost savings through multi-layered AWS optimization (RDS, EC2, S3, KMS). Led GitHub Enterprise migrations for 200+ developers and built internal developer platforms serving 300+ service templates. Three-time GitHub Star (2021-2023).
     ],
 )
 
 #resume_section(
     "Skills",
     [
-        *Cloud & Infrastructure*: AWS, Azure, GCP, Kubernetes, Terraform, Helm
+        *Cloud & Platform*: AWS (RDS, EKS, EC2, S3, KMS), Kubernetes, Terraform, Helm, Backstage.io, FluxCD, Karpenter
 
-        *DevOps & CI/CD*: GitHub, GitHub Actions, GitLab, Jenkins, Apache Airflow, Docker
+        *CI/CD & DevOps*: GitHub Actions, GitHub Enterprise, GitLab, Jenkins, Apache Airflow, Docker
 
-        *Platform Engineering*: Terragrunt, Helmfile, Backstage, GitHub Enterprise, GitHub Copilot
+        *Observability*: OpenTelemetry, New Relic, Xmatters
 
-        *Development*: Python, Bash, MERN, Maven, Linux
+        *Languages & Tools*: Python, Bash, Terragrunt, Helmfile
 
-        *Professional*: Cross-functional Team Leadership, Technical Mentoring, Stakeholder Management, Problem-Solving & Root Cause Analysis
+        *Security & Compliance*: GitHub Advanced Security, SBOM (EO 14028), HIPAA
     ],
 )
 
@@ -104,25 +104,25 @@
     [
         #lines_with_date_and_description(
             strong("Platform Engineering Architect") + ", StatusNeo Consulting",
-            emph("May '24 - Present"),
+            emph("May 2024 - Present"),
             [
-                - Optimized AWS RDS infrastructure, delivering \$1.8M+ in savings and achieving 50% cost reduction in non-production and 66% in production environments while maintaining 99.9% uptime SLA.
-                - Architected AIOps-enabled self-healing Kubernetes systems and Pair Programming Pods, reducing MTTR by 40% and preventing \$500K+ in potential downtime costs.
-                - Led enterprise-wide Apache Airflow migration from Astronomer, delivering \$800K+ in annualized savings while improving DAG processing efficiency by 35%.
-                - Spearheaded Cloud Software Group's TIBCO Business Unit migration from legacy SVN to GitHub Enterprise, unlocking modern collaboration for 200+ developers and reducing deployment cycles by 60%.
-                - Transformed KenVue's DevSecOps posture through GitHub Enterprise and Backstage.io implementation, achieving 100% compliance while reducing security incident response time by 50%.
+                - Delivered \$5M+ in annual AWS cost savings across four optimization initiatives: RDS right-sizing and Multi-AZ removal (50% non-prod savings), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering with archive policies, and KMS cost reduction through batch ingestion (94% reduction)
+                - Built self-healing Kubernetes infrastructure using FluxCD operators and Karpenter tied to OpenTelemetry/New Relic monitoring, Xmatters workflows, and GitLab/JIRA automation with MS Teams notifications
+                - Migrated 3,400+ Apache Airflow DAGs (100 per state across 34 US jurisdictions) from Astronomer to self-hosted deployment for sportsbook operator, reducing annual licensing costs by \$650K
+                - Led Cloud Software Group's 12-month migration: SVN to GitHub Enterprise for TIBCO (6 months) and Bitbucket to GitHub for Citrix (6 months), modernizing version control for 200+ developers
+                - Implemented GitHub Advanced Security and Backstage.io at KenVue, achieving HIPAA compliance and EO 14028 SBOM requirements
             ]
         )
 
         #lines_with_date_and_description(
             strong("Principal DevOps Engineer") + ", StatusNeo Consulting",
-            emph("Feb '20 - May '24"),
+            emph("February 2020 - May 2024"),
             [
-                - Secured compliance with US Executive Order 10428 at Broadcom by implementing SBOM under the CIO Golden Gate Initiative, ensuring government contract eligibility worth \$50M+ annually.
-                - Conducted 3-month maturity assessment at Broadcom, leading to year-long Backstage.io standardization that improved development practices consistency by 80% and reduced onboarding time by 45%.
-                - Reduced scaffolding time by 60% for William Hill through custom Developer Experience platform, improving developer satisfaction scores by 35% across 150+ engineering professionals.
-                - Delivered McKinsey's Backstage.io MVP in 3 months, establishing foundation for standardized development practices.
-                - Implemented DevOps best practices and CI/CD pipelines across multiple Fortune 500 clients, resulting in 70% reduction in deployment failures and 40% improvement in release frequency.
+                - Deployed Backstage.io developer portal at Broadcom serving multiple teams, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
+                - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE blueprints, reducing new market launch time from 6 months to 2 weeks (Denmark launch)
+                - Implemented SBOM generation pipeline at Broadcom to meet Executive Order 14028 cybersecurity requirements for federal contract eligibility
+                - Delivered Backstage.io MVP for McKinsey in 3 months with 300+ reusable service blueprints focused on single-button deployment workflows
+                - Designed CI/CD pipelines using GitHub Actions and GitLab for Fortune 500 clients, reducing P0 incidents from 1,000 to 40 per quarter
             ]
         )
     ],
@@ -135,8 +135,8 @@
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
             emph("2017 - 2021"),
             [
-                #emph("Bachelor of Technology") + Computer Science (CGPA: 9.6)\
-                Dean's List Semester I-VIII, Gold Medalist of the Batch, Recipient of Meritorious Scholarship
+                #emph("Bachelor of Technology in Computer Science") + " (CGPA: 9.6)\
+                Dean's List Semester I-VIII, Gold Medalist, Meritorious Scholarship Recipient"
             ]
         )
     ],
@@ -145,21 +145,18 @@
 #resume_section(
     "Awards & Achievements",
     [
-        - *GitHub Star 2021, 2022, 2023* -- Three-time recipient of the #link("https://stars.github.com/alumni/")[GitHub Stars Award] by Microsoft for contributions to open source and the GitHub community. Ranked #strong[2nd in India].
-        - *Most Active GitHubber in India* (Apr 2020) -- Ranked #strong[#1 in India] by commits.top with a 365-day contribution streak.
+        - *GitHub Star (2021, 2022, 2023)* – Three-time recipient for contributions to open source and GitHub community
+        - *Top GitHub Contributor in India (2020)* – Ranked \#1 by commits.top with 365-day contribution streak
     ],
 )
 
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified Partner* -- GitHub, Feb 2023
-          - ID: b3ee5738-20ec-4825-93e8-c812950ade8d
-        - *GitHub Administration Certified Partner* -- GitHub, Jan 2023
-          - ID: 74c9729a-0b57-44ca-acef-30869c2e3d1a
-        - *GitHub Actions Certified Partner* -- GitHub, Dec 2022
-          - ID: 684ae38a-8164-4a2e-91c5-c31acae6110f
-        - *Professional Scrum Master I (PSM I)* -- Scrum.org, Apr 2022
+        - *GitHub Advanced Security Certified Partner* (Feb 2023) | ID: b3ee5738-20ec-4825-93e8-c812950ade8d
+        - *GitHub Administration Certified Partner* (Jan 2023) | ID: 74c9729a-0b57-44ca-acef-30869c2e3d1a
+        - *GitHub Actions Certified Partner* (Dec 2022) | ID: 684ae38a-8164-4a2e-91c5-c31acae6110f
+        - *Professional Scrum Master I (PSM I)* – Scrum.org (Apr 2022)
     ],
     print_bottom_line: true,
 )
