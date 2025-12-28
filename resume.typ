@@ -106,11 +106,11 @@
             strong("Platform Engineering Architect") + ", StatusNeo Consulting",
             emph("May 2024 - Present"),
             [
-                - Delivered \$5M+ in annual AWS cost savings across four optimization initiatives: RDS right-sizing and Multi-AZ removal (50% non-prod savings), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering with archive policies, and KMS cost reduction through batch ingestion (94% reduction)
-                - Built self-healing Kubernetes infrastructure using FluxCD operators and Karpenter tied to OpenTelemetry/New Relic monitoring, Xmatters workflows, and GitLab/JIRA automation with MS Teams notifications
-                - Migrated 3,400+ Apache Airflow DAGs (100 per state across 34 US jurisdictions) from Astronomer to self-hosted deployment for sportsbook operator, reducing annual licensing costs by \$650K
-                - Led Cloud Software Group's 12-month migration: SVN to GitHub Enterprise for TIBCO (6 months) and Bitbucket to GitHub for Citrix (6 months), modernizing version control for 200+ developers
-                - Implemented GitHub Advanced Security and Backstage.io at KenVue, achieving HIPAA compliance and EO 14028 SBOM requirements
+                - Led teams of 6-8 engineers and stakeholders (Platform GMs, CTO, SVP) delivering \$5M+ in annual AWS savings through RDS optimization (50% non-prod), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering, and KMS batch ingestion (94% reduction)
+                - Built self-healing Kubernetes infrastructure using FluxCD operators and Karpenter tied to OpenTelemetry/New Relic monitoring, Xmatters workflows, and GitLab/JIRA automation, reducing P0 incidents from 1,000 to 40 per quarter
+                - Migrated 3,400+ Apache Airflow DAGs (100 per state across 34 US jurisdictions) from Astronomer to self-hosted for sportsbook operator, reducing annual licensing costs by \$650K
+                - Led Cloud Software Group's 12-month migration: SVN to GitHub Enterprise for TIBCO and Bitbucket to GitHub for Citrix, modernizing version control for 200+ developers
+                - Implemented GitHub Advanced Security and Backstage.io at KenVue, achieving HIPAA compliance, EO 14028 SBOM requirements, and near-zero critical vulnerabilities in production
             ]
         )
 
@@ -118,11 +118,10 @@
             strong("Principal DevOps Engineer") + ", StatusNeo Consulting",
             emph("February 2020 - May 2024"),
             [
-                - Deployed Backstage.io developer portal at Broadcom serving multiple teams, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
+                - Deployed Backstage.io developer portal at Broadcom, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
                 - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE blueprints, reducing new market launch time from 6 months to 2 weeks (Denmark launch)
-                - Implemented SBOM generation pipeline at Broadcom to meet Executive Order 14028 cybersecurity requirements for federal contract eligibility
+                - Implemented SBOM generation pipeline at Broadcom to meet EO 14028 cybersecurity requirements for federal contract eligibility
                 - Delivered Backstage.io MVP for McKinsey in 3 months with 300+ reusable service blueprints focused on single-button deployment workflows
-                - Designed CI/CD pipelines using GitHub Actions and GitLab for Fortune 500 clients, reducing P0 incidents from 1,000 to 40 per quarter
             ]
         )
     ],
@@ -132,7 +131,7 @@
     "Education",
     [
         #lines_with_date_and_description(
-            strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
+            strong("University of Petroleum and Energy Studies") Dehradun, India",
             emph("2017 - 2021"),
             [
                 #emph("Bachelor of Technology in Computer Science") + " (CGPA: 9.6)\
