@@ -131,7 +131,7 @@
     "Education",
     [
         #lines_with_date_and_description(
-            strong("University of Petroleum and Energy Studies") Dehradun, India",
+            strong("University of Petroleum and Energy Studies") + Dehradun, India",
             emph("2017 - 2021"),
             [
                 #emph("Bachelor of Technology in Computer Science") + " (CGPA: 9.6)\
