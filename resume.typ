@@ -22,7 +22,7 @@
 
 #show list: set list(marker: [▫])
 
-#let lines_with_date_and_description(title, date, description) = {
+#let lines_with_date_and_description(title, date, description, location: none) = {
     [
         #grid(
             columns: (auto, 1fr),
@@ -31,6 +31,10 @@
             title,
             date,
         )
+        #if location != none [
+            #v(-0.5em)
+            #text(size: 0.9em, fill: lightergray)[#location]
+        ]
         #v(-0.7em) #description
     ]
 }
@@ -103,8 +107,9 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Platform Engineering Architect") + ", StatusNeo Consulting, Jersey City, NJ, USA",
+            strong("Platform Engineering Architect") + ", StatusNeo Consulting",
             emph("May 2024 - Present"),
+            location: "Jersey City, New Jersey, United States",
             [
                 - Led teams of 6-8 engineers and stakeholders (Platform GMs, CTO, SVP) delivering \$5M+ in annual AWS savings through RDS optimization (50% non-prod), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering, and KMS batch ingestion (94% reduction)
                 - Built self-healing Kubernetes infrastructure using FluxCD operators and Karpenter tied to OpenTelemetry/New Relic monitoring, Xmatters workflows, and GitLab/JIRA automation, reducing P0 incidents from 1,000 to 40 per quarter
@@ -115,8 +120,9 @@
         )
 
         #lines_with_date_and_description(
-            strong("Principal DevOps Engineer") + ", StatusNeo Consulting, Gurugram, Haryana, India",
+            strong("Principal DevOps Engineer") + ", StatusNeo Consulting",
             emph("February 2020 - May 2024"),
+            location: "Gurugram, Haryana, India",
             [
                 - Deployed Backstage.io developer portal at Broadcom, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
                 - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE blueprints, reducing new market launch time from 6 months to 2 weeks (Denmark launch)
