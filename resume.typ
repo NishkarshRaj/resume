@@ -108,10 +108,10 @@
     [
         #lines_with_date_and_description(
             strong("Platform Engineering Architect") + ", StatusNeo Consulting",
-            emph("May 2024 - Present"),
+            emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
-                - Led teams of 6-8 engineers and stakeholders (Platform GMs, CTO, SVP) delivering \$5M+ in annual AWS savings through RDS optimization (50% non-prod), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering, and KMS batch ingestion (94% reduction)
+                - Architected platforms for stakeholders (Platform GMs, CTO, SVP) delivering \$5M+ in annual AWS savings through RDS optimization (50% non-prod), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering, and KMS batch ingestion (94% reduction)
                 - Built self-healing Kubernetes infrastructure using FluxCD operators and Karpenter tied to OpenTelemetry/New Relic monitoring, Xmatters workflows, and GitLab/JIRA automation, reducing P0 incidents from 1,000 to 40 per quarter
                 - Migrated 3,400+ Apache Airflow DAGs (100 per state across 34 US jurisdictions) from Astronomer to self-hosted for sportsbook operator, reducing annual licensing costs by \$650K
                 - Led Cloud Software Group's 12-month migration: SVN to GitHub Enterprise for TIBCO and Bitbucket to GitHub for Citrix, modernizing version control for 200+ developers
@@ -121,7 +121,7 @@
 
         #lines_with_date_and_description(
             strong("Principal DevOps Engineer") + ", StatusNeo Consulting",
-            emph("February 2020 - May 2024"),
+            emph("02/2020 - 07/2024"),
             location: "Gurugram, Haryana, India",
             [
                 - Deployed Backstage.io developer portal at Broadcom, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
@@ -137,7 +137,7 @@
     [
         #lines_with_date_and_description(
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
-            emph("2017 - 2021"),
+            emph("07/2017 - 05/2021"),
             [
                 #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6)\
                 Dean's List Semester I-VIII, Gold Medalist, Meritorious Scholarship Recipient
@@ -157,10 +157,10 @@
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified Partner* (Feb 2023) | ID: b3ee5738-20ec-4825-93e8-c812950ade8d
-        - *GitHub Administration Certified Partner* (Jan 2023) | ID: 74c9729a-0b57-44ca-acef-30869c2e3d1a
-        - *GitHub Actions Certified Partner* (Dec 2022) | ID: 684ae38a-8164-4a2e-91c5-c31acae6110f
-        - *Professional Scrum Master I (PSM I)* – Scrum.org (Apr 2022)
+        - *GitHub Advanced Security Certified Partner* (02/2023) | ID: b3ee5738-20ec-4825-93e8-c812950ade8d
+        - *GitHub Administration Certified Partner* (01/2023) | ID: 74c9729a-0b57-44ca-acef-30869c2e3d1a
+        - *GitHub Actions Certified Partner* (12/2022) | ID: 684ae38a-8164-4a2e-91c5-c31acae6110f
+        - *Professional Scrum Master I (PSM I)* – Scrum.org (04/2022)
     ],
     print_bottom_line: true,
 )
