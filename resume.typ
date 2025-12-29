@@ -68,11 +68,11 @@
             columns: (auto),
             align: (end),
             row-gutter: 0.5em,
-            "Jersey City, New Jersey, United States",
+            "Jersey City, New Jersey, United States 07302",
             link("mailto:nishkarshraj000@gmail.com"),
             link("https://linkedin.com/in/nishkarshraj"),
             link("https://github.com/NishkarshRaj"),
-            link("tel:+91-900-544-5752")
+            link("tel:+919005445752")[+91-9005445752]
         )
     ]
 )
@@ -103,7 +103,7 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Platform Engineering Architect") + ", StatusNeo Consulting",
+            strong("Platform Engineering Architect") + ", StatusNeo Consulting, Jersey City, NJ, USA",
             emph("May 2024 - Present"),
             [
                 - Led teams of 6-8 engineers and stakeholders (Platform GMs, CTO, SVP) delivering \$5M+ in annual AWS savings through RDS optimization (50% non-prod), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering, and KMS batch ingestion (94% reduction)
@@ -115,7 +115,7 @@
         )
 
         #lines_with_date_and_description(
-            strong("Principal DevOps Engineer") + ", StatusNeo Consulting",
+            strong("Principal DevOps Engineer") + ", StatusNeo Consulting, Gurugram, Haryana, India",
             emph("February 2020 - May 2024"),
             [
                 - Deployed Backstage.io developer portal at Broadcom, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
