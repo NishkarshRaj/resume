@@ -84,20 +84,16 @@
 #resume_section(
     "Summary",
     [
-        Platform Engineer with 5+ years building cloud infrastructure and developer platforms at Fortune 500 companies. Led teams of 6-8 engineers delivering \$5M+ in AWS cost savings and 96% P0 incident reduction. Built internal developer platforms serving 300+ service templates and migrated 200+ developers to GitHub Enterprise. Three-time GitHub Star (2021-2023).
+        Platform Engineer with 6+ years building cloud infrastructure and developer platforms. Led teams of 6-8 engineers delivering \$5M+ in AWS cost savings and 96% P0 incident reduction. Built IDPs serving 300+ blueprints and led migration initiatives for 2000+ developers to GitHub Enterprise. Three-time GitHub Star Awards Recipient.
     ],
 )
 
 #resume_section(
     "Skills",
     [
-        *Cloud & Platform*: AWS (RDS, EKS, EC2, S3, KMS), Kubernetes, Terraform, Helm, Backstage.io, FluxCD, Karpenter
+        *DevOps*: AWS (RDS, EKS, EC2, S3, KMS, Bedrock), Kubernetes, Terraform, Helm, Backstage.io, FluxCD, Karpenter, GitHub (Actions, Copilot, Codespaces, Source Control), GitLab, Jenkins, Apache Airflow, Docker, New Relic, Xmatters
 
-        *CI/CD & DevOps*: GitHub Actions, GitHub Enterprise, GitLab, Jenkins, Apache Airflow, Docker
-
-        *Observability*: OpenTelemetry, New Relic, Xmatters
-
-        *Languages & Tools*: Python, Bash, Terragrunt, Helmfile
+        *Languages & Tools*: Python, Bash, Terragrunt, Helmfile, Java, Maven
 
         *Security & Compliance*: GitHub Advanced Security, SBOM (EO 14028), HIPAA
     ],
@@ -107,25 +103,25 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Platform Engineering Architect") + ", StatusNeo Consulting",
+            strong("Platform Engineering Architect") + ", StatusNeo",
             emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
-                - Architected platforms for stakeholders (Platform GMs, CTO, SVP) delivering \$5M+ in annual AWS savings through RDS optimization (50% non-prod), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering, and KMS batch ingestion (94% reduction)
+                - Architected platforms for stakeholders delivering \$5M+ in annual AWS savings through RDS optimization (50% non-prod), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering, and KMS batch ingestion (94% reduction)
                 - Built self-healing Kubernetes infrastructure using FluxCD operators and Karpenter tied to OpenTelemetry/New Relic monitoring, Xmatters workflows, and GitLab/JIRA automation, reducing P0 incidents from 1,000 to 40 per quarter
-                - Migrated 3,400+ Apache Airflow DAGs (100 per state across 34 US jurisdictions) from Astronomer to self-hosted for sportsbook operator, reducing annual licensing costs by \$650K
-                - Led Cloud Software Group's 12-month migration: SVN to GitHub Enterprise for TIBCO and Bitbucket to GitHub for Citrix, modernizing version control for 200+ developers
-                - Implemented GitHub Advanced Security and Backstage.io at KenVue, achieving HIPAA compliance, EO 14028 SBOM requirements, and near-zero critical vulnerabilities in production
+                - Migrated 3,400+ Apache Airflow DAGs from Astronomer to self-hosted for sportsbook operator, reducing annual licensing costs by \$650K
+                - Led Cloud Software Group's GitHub Enterprise Migration for TIBCO and Citrix, modernizing version control for 2000+ developers
+                - Evangelized adoption of Backstage.io at KenVue with ArgoCD and Snyk, achieving HIPAA compliance, EO 14028 SBOM requirements, and improved DORA Metrics
             ]
         )
 
         #lines_with_date_and_description(
-            strong("Principal DevOps Engineer") + ", StatusNeo Consulting",
+            strong("Principal DevOps Engineer") + ", StatusNeo",
             emph("02/2020 - 07/2024"),
             location: "Gurugram, Haryana, India",
             [
                 - Deployed Backstage.io developer portal at Broadcom, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
-                - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE blueprints, reducing new market launch time from 6 months to 2 weeks (Denmark launch)
+                - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE blueprints, reducing new market launch time from 6 months to 2 weeks
                 - Delivered Backstage.io MVP for McKinsey with 300+ self-service blueprints, enabling single-button deployments
             ]
         )
@@ -149,8 +145,7 @@
 #resume_section(
     "Awards & Achievements",
     [
-        - *GitHub Star (2021, 2022, 2023)* – Three-time recipient for contributions to open source and GitHub community
-        - *Top GitHub Contributor in India (2020)* – Ranked \#1 by commits.top with 365-day contribution streak
+        - *GitHub Stars Award* – Three-time recipient for contributions to open source in India and evangelizing GitHub Enterprise offerings
     ],
 )
 
@@ -160,7 +155,6 @@
         - *GitHub Advanced Security Certified Partner* (02/2023) | ID: b3ee5738-20ec-4825-93e8-c812950ade8d
         - *GitHub Administration Certified Partner* (01/2023) | ID: 74c9729a-0b57-44ca-acef-30869c2e3d1a
         - *GitHub Actions Certified Partner* (12/2022) | ID: 684ae38a-8164-4a2e-91c5-c31acae6110f
-        - *Professional Scrum Master I (PSM I)* – Scrum.org (04/2022)
     ],
     print_bottom_line: true,
 )
