@@ -84,7 +84,7 @@
 #resume_section(
     "Summary",
     [
-        Platform Engineer with 6+ years building cloud infrastructure and developer platforms. Led teams of 6-8 engineers delivering \$5M+ in AWS cost savings and 96% P0 incident reduction. Built IDPs serving 300+ blueprints and led migration initiatives for 2000+ developers to GitHub Enterprise. Three-time GitHub Star Awards Recipient.
+        Platform Engineer with 6+ years building cloud infrastructure and developer platforms. Led teams of 6-8 engineers delivering \$5M+ in AWS cost savings and 96% P0 incident reduction. Built IDPs serving 300+ blueprints and led migration initiatives for 2000+ developers to GitHub Enterprise.
     ],
 )
 
@@ -111,7 +111,7 @@
                 - Built self-healing Kubernetes infrastructure using FluxCD operators and Karpenter tied to OpenTelemetry/New Relic monitoring, Xmatters workflows, and GitLab/JIRA automation, reducing P0 incidents from 1,000 to 40 per quarter
                 - Migrated 3,400+ Apache Airflow DAGs from Astronomer to self-hosted for sportsbook operator, reducing annual licensing costs by \$650K
                 - Led Cloud Software Group's GitHub Enterprise Migration for TIBCO and Citrix, modernizing version control for 2000+ developers
-                - Evangelized adoption of Backstage.io at KenVue with ArgoCD and Snyk, achieving HIPAA compliance, EO 14028 SBOM requirements, and improved DORA Metrics
+                - Built Backstage.io at KenVue with ArgoCD and Snyk, achieving HIPAA compliance, EO 14028 SBOM requirements, and 40% increase in deployment frequency
             ]
         )
 
@@ -121,8 +121,8 @@
             location: "Gurugram, Haryana, India",
             [
                 - Deployed Backstage.io developer portal at Broadcom, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
-                - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE blueprints, reducing new market launch time from 6 months to 2 weeks
-                - Delivered Backstage.io MVP for McKinsey with 300+ self-service blueprints, enabling single-button deployments
+                - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE patterns, reducing new market launch time from 6 months to 2 weeks
+                - Delivered Backstage.io MVP for McKinsey to enable SRE teams with one-click deployments and InnerSource practices
             ]
         )
     ],
@@ -152,9 +152,9 @@
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified Partner* (02/2023) | ID: b3ee5738-20ec-4825-93e8-c812950ade8d
-        - *GitHub Administration Certified Partner* (01/2023) | ID: 74c9729a-0b57-44ca-acef-30869c2e3d1a
-        - *GitHub Actions Certified Partner* (12/2022) | ID: 684ae38a-8164-4a2e-91c5-c31acae6110f
+        - *GitHub Advanced Security Certified Partner* (02/2023)
+        - *GitHub Administration Certified Partner* (01/2023)
+        - *GitHub Actions Certified Partner* (12/2022)
     ],
     print_bottom_line: true,
 )
