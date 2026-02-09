@@ -84,18 +84,22 @@
 #resume_section(
     "Summary",
     [
-        Platform Engineer with 6+ years building cloud infrastructure and developer platforms. Led teams of 6-8 engineers delivering \$5M+ in AWS cost savings and 96% P0 incident reduction. Built IDPs serving 300+ blueprints and led migration initiatives for 2000+ developers to GitHub Enterprise.
+        Platform Engineer with 6+ years building cloud infrastructure, AI platforms, and developer experience products. Led product from 0 to \$2M ARR and delivered \$7M+ in infrastructure savings through AI-powered FinOps automation. Built platforms serving 2000+ developers across Fortune 500 companies. Three-time GitHub Star, Day 0 founding engineer.
     ],
 )
 
 #resume_section(
     "Skills",
     [
-        *DevOps*: AWS (RDS, EKS, EC2, S3, KMS, Bedrock), Kubernetes, Terraform, Helm, Backstage.io, FluxCD, Karpenter, GitHub (Actions, Copilot, Codespaces, Source Control), GitLab, Jenkins, Apache Airflow, Docker, New Relic, Xmatters
+        *Cloud & Platform*: AWS (RDS, EKS, EC2, S3, KMS, Bedrock), Kubernetes, Terraform, Helm, Backstage.io, FluxCD, Karpenter, Seldon, gRPC
 
-        *Languages & Tools*: Python, Bash, Terragrunt, Helmfile, Java, Maven
+        *AI & Automation*: AWS Bedrock, FastAPI, AI model orchestration, FinOps automation
 
-        *Security & Compliance*: GitHub Advanced Security, SBOM (EO 14028), HIPAA
+        *DevOps*: GitHub (Actions, Copilot, Codespaces, Enterprise, Advanced Security), GitLab, Jenkins, Apache Airflow, Docker, OpenTelemetry, New Relic, Xmatters
+
+        *Languages*: Python, Bash, Terragrunt, Helmfile, Java, Maven
+
+        *Security*: GitHub Advanced Security, SBOM (EO 14028), HIPAA
     ],
 )
 
@@ -107,22 +111,32 @@
             emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
-                - Architected platforms for stakeholders delivering \$5M+ in annual AWS savings through RDS optimization (50% non-prod), EC2 Graviton migration with reserved instances, S3 Intelligent Tiering, and KMS batch ingestion (94% reduction)
-                - Built self-healing Kubernetes infrastructure using FluxCD operators and Karpenter tied to OpenTelemetry/New Relic monitoring, Xmatters workflows, and GitLab/JIRA automation, reducing P0 incidents from 1,000 to 40 per quarter
-                - Migrated 3,400+ Apache Airflow DAGs from Astronomer to self-hosted for sportsbook operator, reducing annual licensing costs by \$650K
-                - Led Cloud Software Group's GitHub Enterprise Migration for TIBCO and Citrix, modernizing version control for 2000+ developers
-                - Built Backstage.io at KenVue with ArgoCD and Snyk, achieving HIPAA compliance, EO 14028 SBOM requirements, and 40% increase in deployment frequency
+                - Built AI-powered FinOps platform using AWS Bedrock and FastAPI for intelligent cost optimization, delivering \$2M in additional annual savings through automated waste detection and remediation recommendations
+                - Led \$5M infrastructure cost optimization across RDS, EC2 (Graviton migration), S3 (Intelligent Tiering), and KMS (94% reduction through batch processing) for Caesars Entertainment's regulatory compliance platform serving 35 US states
+                - Architected self-healing Kubernetes platform using FluxCD and Karpenter with OpenTelemetry observability, reducing P0 incidents from 1,000 to 40 per quarter (96%) and increasing deployment frequency by 10x
+                - Migrated 3,400+ Apache Airflow DAGs from Astronomer to self-hosted EKS, reducing annual licensing costs by \$650K while improving DAG processing efficiency by 35%
+                - Led GitHub Enterprise migrations for Cloud Software Group (TIBCO from SVN, Citrix from Bitbucket), modernizing version control and CI/CD for 2000+ developers in partnership with Microsoft
             ]
         )
 
         #lines_with_date_and_description(
-            strong("Principal DevOps Engineer") + ", StatusNeo",
-            emph("02/2020 - 07/2024"),
+            strong("Solutions Architect & Product Owner") + ", StatusNeo",
+            emph("01/2022 - 07/2024"),
             location: "Gurugram, Haryana, India",
             [
-                - Deployed Backstage.io developer portal at Broadcom, reducing new engineer onboarding from 4 weeks to 3 days with standardized service templates
-                - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service SRE patterns, reducing new market launch time from 6 months to 2 weeks
-                - Delivered Backstage.io MVP for McKinsey to enable SRE teams with one-click deployments and InnerSource practices
+                - Led RearPortal (enterprise Backstage.io product) from 0 to \$2M ARR as Solutions Architect and Product Owner, securing Fortune 500 clients including Broadcom and McKinsey through Spotify partnership
+                - Conducted 3-month DevSecOps maturity assessment across Broadcom's acquisitions (CA, Symantec, VMware), presented at Annual DevSecOps Consortium, and won \$1M+ in follow-on work including GitHub archival program (30% savings) and SuperHighway CXO dashboard initiative
+                - Built internal developer platform for William Hill's 150+ engineers with 300+ self-service patterns, reducing new market launch time from 6 months to 2 weeks for Denmark expansion
+                - Deployed Backstage.io at Broadcom and McKinsey, reducing engineer onboarding from 4 weeks to 3 days through standardized service templates and one-click deployment workflows
+            ]
+        )
+
+        #lines_with_date_and_description(
+            strong("DevOps Engineer") + ", StatusNeo",
+            emph("05/2021 - 01/2022"),
+            location: "Gurugram, Haryana, India",
+            [
+                - Built AI Exchange Platform for Reliance Jio University enabling on-demand AI model deployment using Kubernetes, Seldon, and gRPC -- sponsored by Chief Data Officer to establish AI practices at Reliance
             ]
         )
     ],
@@ -145,16 +159,15 @@
 #resume_section(
     "Awards & Achievements",
     [
-        - *GitHub Stars Award* – Three-time recipient for contributions to open source in India and evangelizing GitHub Enterprise offerings
+        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized for teaching open source to 100+ students, establishing GitHub/Linux Foundation MoUs at UPES, and evangelizing GitHub Enterprise across India
+        - *Day 0 Founding Engineer* – StatusNeo (helped scale from startup to enterprise consulting firm with Fortune 500 clients)
     ],
 )
 
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified Partner* (02/2023)
-        - *GitHub Administration Certified Partner* (01/2023)
-        - *GitHub Actions Certified Partner* (12/2022)
+        - *GitHub Advanced Security Certified* (02/2023) | *GitHub Administration Certified* (01/2023) | *GitHub Actions Certified* (12/2022)
     ],
     print_bottom_line: true,
 )
