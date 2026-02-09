@@ -84,7 +84,7 @@
 #resume_section(
     "Summary",
     [
-        Platform Engineer with 6+ years building cloud infrastructure, AI platforms, and developer experience products. Led product from 0 to \$2M ARR and delivered \$7M+ in infrastructure savings through AI-powered FinOps automation. Built platforms serving 2000+ developers across Fortune 500 companies. Three-time GitHub Star, Day 0 founding engineer.
+        Platform Engineer with 6+ years building cloud infrastructure, AI platforms, and developer experience products. Led product from 0 to \$2M ARR and delivered \$7M+ in infrastructure savings through AI-powered FinOps automation. Built platforms serving 2000+ developers across Fortune 500 companies. Three-time GitHub Stars Award Winner by Microsoft. Day 0 founding engineer experience at StatusNeo.
     ],
 )
 
@@ -132,7 +132,7 @@
         )
 
         #lines_with_date_and_description(
-            strong("DevOps Engineer") + ", StatusNeo",
+            strong("Founding Engineer") + ", StatusNeo",
             emph("05/2021 - 01/2022"),
             location: "Gurugram, Haryana, India",
             [
@@ -167,7 +167,9 @@
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified* (02/2023) | *GitHub Administration Certified* (01/2023) | *GitHub Actions Certified* (12/2022)
+        - *GitHub Advanced Security Certified* (02/2023)
+        - *GitHub Administration Certified* (01/2023)
+        - *GitHub Actions Certified* (12/2022)
     ],
     print_bottom_line: true,
 )
