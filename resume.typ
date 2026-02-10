@@ -120,7 +120,7 @@
         )
 
         #lines_with_date_and_description(
-            strong("Solutions Architect & Product Owner") + ", StatusNeo",
+            strong("Principal DevOps Engineer") + ", StatusNeo",
             emph("01/2022 - 07/2024"),
             location: "Gurugram, Haryana, India",
             [
@@ -141,7 +141,7 @@
     [
         #lines_with_date_and_description(
             strong("Founding Engineer") + ", StatusNeo",
-            emph("05/2021 - 01/2022"),
+            emph("02/2020 - 01/2022"),
             location: "Gurugram, Haryana, India",
             [
                 - Built AI Exchange Platform for Reliance Jio University enabling on-demand AI model deployment using Kubernetes, Seldon, and gRPC -- sponsored by Chief Data Officer to establish AI practices at Reliance
