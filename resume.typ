@@ -18,7 +18,7 @@
 
 #show text: set text(0.95em)
 #show link: set text(fill: link_colour)
-#set par(leading: 0.45em)
+#set par(leading: 0.55em)
 
 #show list: set list(marker: [▫])
 
@@ -35,7 +35,7 @@
             #v(-0.5em)
             #text(size: 0.9em, fill: lightergray)[#location]
         ]
-        #v(-0.7em) #description
+        #v(-0.5em) #description
     ]
 }
 
@@ -131,6 +131,14 @@
             ]
         )
 
+    ],
+)
+
+#pagebreak()
+
+#resume_section(
+    "Experience",
+    [
         #lines_with_date_and_description(
             strong("Founding Engineer") + ", StatusNeo",
             emph("05/2021 - 01/2022"),
@@ -160,7 +168,6 @@
     "Awards & Achievements",
     [
         - *GitHub Stars Award (2021, 2022, 2023)* – Recognized for teaching open source to 100+ students, establishing GitHub/Linux Foundation MoUs at UPES, and evangelizing GitHub Enterprise across India
-        - *Day 0 Founding Engineer* – StatusNeo (helped scale from startup to enterprise consulting firm with Fortune 500 clients)
     ],
 )
 
