@@ -1,10 +1,11 @@
 # Resume
 
-My professional resume built with [Typst](https://typst.app/) - a modern markup-based typesetting system.
+My professional resumes built with [Typst](https://typst.app/) - a modern markup-based typesetting system.
 
 ## Preview
 
-📄 [Download Latest PDF](https://github.com/nishkarshraj/resume/releases/download/latest/resume.pdf)
+📄 [Download Consulting Resume](https://github.com/nishkarshraj/resume/releases/download/latest/resume-consulting.pdf)
+📄 [Download Engineering Resume](https://github.com/nishkarshraj/resume/releases/download/latest/resume-engineering.pdf)
 
 ## Tech Stack
 
@@ -17,9 +18,15 @@ My professional resume built with [Typst](https://typst.app/) - a modern markup-
 # Install Typst
 brew install typst
 
-# Compile to PDF
-typst compile resume.typ
+# Compile both resumes
+typst compile resume-consulting.typ
+typst compile resume-engineering.typ
 ```
+
+## Variants
+
+- **Consulting** (`resume-consulting.typ`) - Focused on solutions architecture, product ownership, and client delivery
+- **Engineering** (`resume-engineering.typ`) - Focused on platform engineering, system design, and infrastructure at scale
 
 ## Template
 
