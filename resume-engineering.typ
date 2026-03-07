@@ -135,8 +135,6 @@
     ],
 )
 
-#pagebreak()
-
 #resume_section(
     "Experience",
     [
