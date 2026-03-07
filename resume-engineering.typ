@@ -84,7 +84,7 @@
 #resume_section(
     "Summary",
     [
-        Staff Platform Engineer with 6+ years architecting cloud infrastructure, AI platforms, and developer tooling at Fortune 500 scale. Built systems serving 2000+ engineers processing 10M+ events daily with 99.9% uptime. Delivered \$7M in infrastructure optimization through systematic cost reduction and AI-powered automation. Led platform initiatives from architecture through production deployment. Three-time GitHub Stars Award Winner.
+        Staff Platform Engineer with 6+ years architecting cloud infrastructure, AI platforms, and developer tooling at Fortune 500 scale. Built systems serving 2000+ engineers processing 25M+ events daily with 99.9% uptime. Delivered \$7M in infrastructure optimization through systematic cost reduction and AI-powered automation. Led platform initiatives from architecture through production deployment. Three-time GitHub Stars Award Winner.
     ],
 )
 
@@ -99,7 +99,7 @@
 
         *AI/ML Infrastructure*: Kubernetes operators, Seldon Core, gRPC, model serving, LLM integration, AWS Bedrock
 
-        *Languages*: Python, Bash, Java, Go (learning)
+        *Languages*: Python, Bash, Java, Go
 
         *Databases & Messaging*: PostgreSQL, Redis, Kafka, event-driven architectures
     ],
@@ -113,7 +113,7 @@
             emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
-                - Built AI-powered cost optimization platform using AWS Bedrock (Claude Opus) and FastAPI processing 10M+ cost events daily -- developed AWS SDK scanners for resource analysis, integrated with Bedrock models to generate Executive Summaries, Priority Matrices, and Project Plans for strategic savings beyond low-hanging cleanups -- reduced infrastructure waste by \$2M annually across multi-cloud environments
+                - Built AI-powered cost optimization platform using AWS Bedrock (Claude Opus) and FastAPI processing 25M+ cost events daily -- developed AWS SDK scanners for resource analysis, integrated with Bedrock models to generate Executive Summaries, Priority Matrices, and Project Plans for strategic savings beyond low-hanging cleanups -- reduced infrastructure waste by \$2M annually across multi-cloud environments
                 - Drove cloud infrastructure optimization across 500+ AWS resources serving 35-state regulatory compliance platform -- designed RDS right-sizing framework analyzing 6-month CloudWatch metrics, architected ARM-based Graviton migration strategy (40% performance improvement), implemented S3 Intelligent Tiering with automated lifecycle policies, and redesigned KMS architecture for batch processing (94% cost reduction) -- delivered \$5M annual savings while maintaining 99.95% uptime SLA
                 - Architected self-healing Kubernetes platform using custom FluxCD operators and Karpenter autoscaling -- designed comprehensive OpenTelemetry instrumentation for distributed tracing, built automated incident response system integrating GitLab/JIRA workflows, and implemented chaos engineering practices -- reduced MTTR from 4 hours to 35 minutes and P0 incidents by 96% (1,000 → 40 per quarter)
                 - Designed and led implementation of multi-tenant Apache Airflow platform on EKS managing 3,400+ DAGs -- architected namespace isolation strategy, optimized DAG execution engine (35% performance improvement), built custom operators for state-specific compliance, and implemented comprehensive observability -- replaced \$650K annual Astronomer licensing while achieving 99.95% uptime
