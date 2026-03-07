@@ -173,7 +173,9 @@
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified* (02/2023) | *GitHub Administration Certified* (01/2023) | *GitHub Actions Certified* (12/2022)
+        - *GitHub Advanced Security Certified* (02/2023)
+        - *GitHub Administration Certified* (01/2023)
+        - *GitHub Actions Certified* (12/2022)
     ],
     print_bottom_line: true,
 )
