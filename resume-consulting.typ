@@ -185,6 +185,6 @@
     #text(gray)[
       Last updated on #datetime.today().display(
         "[month repr:short] [day], [year]",
-      ). Download the most recent version from #link("https://github.com/nishkarshraj/resume/releases/download/latest/resume.pdf")[here].
+      ). Download the most recent version from #link("https://github.com/nishkarshraj/resume/releases/download/latest/resume-consulting.pdf")[here].
     ]
 ]

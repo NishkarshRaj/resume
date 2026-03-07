@@ -19,13 +19,17 @@ jobs:
     - name: Install Typst.
       run: brew install typst
       
-    - name: Build PDF.
-      run: typst compile resume.typ
+    - name: Build PDFs.
+      run: |
+        typst compile resume-consulting.typ
+        typst compile resume-engineering.typ
       
     - name: Create release.
       uses: marvinpinto/action-automatic-releases@v1.2.1
       with:
-        files: "resume.pdf"
+        files: |
+          resume-consulting.pdf
+          resume-engineering.pdf
         automatic_release_tag: "latest"
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: false
