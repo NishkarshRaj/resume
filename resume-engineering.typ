@@ -109,7 +109,7 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Staff Platform Engineer") + ", StatusNeo",
+            strong("Principal Platform Engineer") + ", StatusNeo",
             emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
@@ -122,7 +122,7 @@
         )
 
         #lines_with_date_and_description(
-            strong("Staff Platform Engineer") + ", StatusNeo",
+            strong("Senior Platform Engineer") + ", StatusNeo",
             emph("01/2022 - 07/2024"),
             location: "Gurugram, Haryana, India",
             [
@@ -134,7 +134,7 @@
         )
 
         #lines_with_date_and_description(
-            strong("Senior Platform Engineer") + ", StatusNeo",
+            strong("Platform Engineer") + ", StatusNeo",
             emph("05/2021 - 01/2022"),
             location: "Gurugram, Haryana, India",
             [

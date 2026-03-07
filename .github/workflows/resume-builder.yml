@@ -23,6 +23,7 @@ jobs:
       run: |
         typst compile resume-consulting.typ
         typst compile resume-engineering.typ
+        cp resume-engineering.pdf resume.pdf
       
     - name: Create release.
       uses: marvinpinto/action-automatic-releases@v1.2.1
@@ -30,6 +31,7 @@ jobs:
         files: |
           resume-consulting.pdf
           resume-engineering.pdf
+          resume.pdf
         automatic_release_tag: "latest"
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: false
