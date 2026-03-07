@@ -166,7 +166,7 @@
 #resume_section(
     "Open Source & Community",
     [
-        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized for contributions to developer tooling ecosystem, maintaining educational repositories with 10,000+ stars, teaching open source to 100+ university students, and establishing GitHub/Linux Foundation partnerships at UPES
+        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized for evangelizing GitHub products (Actions, Copilot, Codespaces) across developer communities, educating 1000+ university students in open source practices, and establishing GitHub/Linux Foundation partnerships at UPES
     ],
 )
 
