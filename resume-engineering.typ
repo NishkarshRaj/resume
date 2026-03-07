@@ -109,7 +109,7 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Principal Platform Engineer") + ", StatusNeo",
+            strong("Platform Engineering Architect") + ", StatusNeo",
             emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
