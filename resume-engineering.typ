@@ -113,7 +113,7 @@
             emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
-                - Built AI-powered cost optimization platform using AWS Bedrock (Claude Opus) and FastAPI processing 25M+ cost events daily -- developed AWS SDK scanners for resource analysis, integrated with Bedrock models to generate Executive Summaries, Priority Matrices, and Project Plans for strategic savings beyond low-hanging cleanups -- reduced infrastructure waste by \$2M annually across multi-cloud environments
+                - Built AI-powered cost optimization platform using AWS Bedrock (Claude Opus) and FastAPI processing 25M+ cost events daily -- developed custom AWS SDK scanners for resource analysis, integrated with Bedrock models to generate Executive Summaries, Priority Matrices, and Project Plans for strategic savings beyond low-hanging cleanups -- reduced infrastructure waste by \$2M annually across multi-cloud environments
                 - Drove cloud infrastructure optimization across 500+ AWS resources serving 35-state regulatory compliance platform -- designed RDS right-sizing framework analyzing 6-month CloudWatch metrics, architected ARM-based Graviton migration strategy (40% performance improvement), implemented S3 Intelligent Tiering with automated lifecycle policies, and redesigned KMS architecture for batch processing (94% cost reduction) -- delivered \$5M annual savings while maintaining 99.95% uptime SLA
                 - Architected self-healing Kubernetes platform using custom FluxCD operators and Karpenter autoscaling -- designed comprehensive OpenTelemetry instrumentation for distributed tracing, built automated incident response system integrating GitLab/JIRA workflows, and implemented chaos engineering practices -- reduced MTTR from 4 hours to 35 minutes and P0 incidents by 96% (1,000 → 40 per quarter)
                 - Designed and led implementation of multi-tenant Apache Airflow platform on EKS managing 3,400+ DAGs -- architected namespace isolation strategy, optimized DAG execution engine (35% performance improvement), built custom operators for state-specific compliance, and implemented comprehensive observability -- replaced \$650K annual Astronomer licensing while achieving 99.95% uptime
@@ -128,16 +128,11 @@
             [
                 - Architected enterprise internal developer platform on Backstage.io serving 2000+ engineers across Fortune 500 deployments -- designed extensible plugin architecture supporting 300+ service templates, optimized project scaffolding to sub-second performance through Cookiecutter refactoring, built custom TechDocs engine with real-time collaboration, and implemented comprehensive usage analytics -- reduced engineer onboarding from 4 weeks to 3 days while achieving 99.9% platform uptime
                 - Designed unified observability platform integrating tooling across multiple business units (CA, Symantec, VMware) -- architected metrics aggregation layer processing 1M+ deployment events daily, implemented custom Prometheus exporters for legacy systems, built real-time DORA metrics calculation engine, and created executive dashboards -- enabled data-driven decisions across 10,000+ engineers
-                - Led developer experience transformation for 150+ engineers -- architected platform with 300+ self-service IaC patterns, designed Terraform module registry with automated validation, implemented GitOps workflows with ArgoCD, and built Backstage actions for one-click deployments -- reduced infrastructure provisioning from 2 weeks to 15 minutes, enabling new market launch acceleration from 6 months to 2 weeks
+                - Led developer experience transformation for 150+ engineers -- architected platform with 300+ self-service IaC patterns, designed Terraform module registry with automated validation, implemented GitOps workflows with FluxCD, and built Backstage actions for one-click deployments -- reduced infrastructure provisioning from 2 weeks to 15 minutes, enabling new market launch acceleration from 6 months to 2 weeks
                 - Designed GitHub Enterprise optimization strategy analyzing 50,000+ repositories -- built automated archival workflows using commit history analysis and GitHub API automation, architected zero-downtime GHE upgrade tooling, and implemented cost tracking dashboards -- recovered 30% storage capacity and reduced operational overhead by \$400K annually
             ]
         )
-    ],
-)
 
-#resume_section(
-    "Experience",
-    [
         #lines_with_date_and_description(
             strong("Senior Platform Engineer") + ", StatusNeo",
             emph("05/2021 - 01/2022"),
@@ -166,7 +161,7 @@
 #resume_section(
     "Open Source & Community",
     [
-        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized for evangelizing GitHub products (Actions, Copilot, Codespaces) across developer communities, educating 1000+ university students in open source practices, and establishing GitHub/Linux Foundation partnerships at UPES
+        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized for open source contributions and community building -- taught 1000+ students, established GitHub/Linux Foundation university partnerships at UPES
     ],
 )
 
