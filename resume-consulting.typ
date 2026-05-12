@@ -20,7 +20,7 @@
 #show link: set text(fill: link_colour)
 #set par(leading: 0.55em)
 
-#show list: set list(marker: [▫])
+#show list: set list(marker: [-])
 
 #let lines_with_date_and_description(title, date, description, location: none) = {
     [
@@ -74,8 +74,8 @@
             row-gutter: 0.5em,
             "Jersey City, New Jersey, United States 07302",
             link("mailto:nishkarshraj000@gmail.com"),
-            link("https://linkedin.com/in/nishkarshraj"),
-            link("https://github.com/NishkarshRaj"),
+            "LinkedIn: linkedin.com/in/nishkarshraj",
+            "GitHub: github.com/NishkarshRaj",
             link("tel:+919005445752")[+91-9005445752]
         )
     ]
@@ -91,7 +91,7 @@
 #resume_section(
     "Skills",
     [
-        *Cloud & Platform*: AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Backstage.io, FluxCD, Karpenter
+        *Cloud & Platform*: Amazon Web Services - AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Backstage.io, FluxCD, Karpenter
 
         *Data & Observability*: Strimzi Kafka Connect, Snowflake, Apache Airflow, CloudNativePG, OpenTelemetry, Dynatrace, New Relic
 
@@ -100,6 +100,8 @@
         *AI & Automation*: AWS Bedrock (Claude), FastAPI, FinOps automation, custom AI agents
 
         *Languages*: Python, Bash, Terragrunt, Java
+
+        *Keywords*: Site Reliability Engineering (SRE), Infrastructure as Code (IaC), Continuous Integration/Continuous Deployment (CI/CD), GitOps, Cloud Architecture, Microservices, Containers, Monitoring, Incident Management, FinOps
     ],
 )
 
@@ -115,7 +117,7 @@
                 - Led Graviton migration (100+ nodes) — zero downtime, 40% compute cost reduction, FluxCD/Karpenter coordination
                 - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) — automated scanning across 15 accounts, \$2M annual savings identified
                 - Operate 536 Kafka Connect connectors (Snowflake/S3 sinks) — resolved Snowflake rate limiting through task tuning and vendor coordination
-                - Driving Airflow v2→v3 migration with parallel instances and per-state feature flags across 40+ state deployments
+                - Driving Airflow v2->v3 migration with parallel instances and per-state feature flags across 40+ state deployments
                 - Delivered \$5M infrastructure optimization: RDS right-sizing, S3 Intelligent Tiering, KMS batch processing (94% reduction)
                 - Reduced P0 incidents from 1,000 to 40/quarter through self-healing GitOps, OpenTelemetry instrumentation, and automated RCA workflows
             ]
@@ -129,7 +131,7 @@
                 - Led RearPortal (Backstage.io product) from 0 to \$2M ARR — secured Broadcom and McKinsey through Spotify partnership
                 - Conducted DevSecOps maturity assessment across Broadcom acquisitions (CA, Symantec, VMware) — won \$1M+ follow-on work
                 - Built IDP for William Hill's 150+ engineers — 300+ self-service patterns, reduced market launch from 6 months to 2 weeks
-                - Led GitHub Enterprise migrations for 2000+ developers (SVN/Bitbucket → GitHub) — completed 2 months ahead of schedule
+                - Led GitHub Enterprise migrations for 2000+ developers (SVN/Bitbucket -> GitHub) — completed 2 months ahead of schedule
                 - Deployed Backstage.io at Fortune 500 clients — reduced engineer onboarding from 4 weeks to 3 days
             ]
         )
@@ -169,7 +171,7 @@
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified* (02/2023) ∙ *GitHub Administration Certified* (01/2023) ∙ *GitHub Actions Certified* (12/2022)
+        - *GitHub Advanced Security Certified* (02/2023)  |  *GitHub Administration Certified* (01/2023)  |  *GitHub Actions Certified* (12/2022)
     ],
     print_bottom_line: true,
 )

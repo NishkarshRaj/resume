@@ -20,7 +20,7 @@
 #show link: set text(fill: link_colour)
 #set par(leading: 0.55em)
 
-#show list: set list(marker: [▫])
+#show list: set list(marker: [-])
 
 #let lines_with_date_and_description(title, date, description, location: none) = {
     [
@@ -74,8 +74,8 @@
             row-gutter: 0.5em,
             "Jersey City, New Jersey, United States 07302",
             link("mailto:nishkarshraj000@gmail.com"),
-            link("https://linkedin.com/in/nishkarshraj"),
-            link("https://github.com/NishkarshRaj"),
+            "LinkedIn: linkedin.com/in/nishkarshraj",
+            "GitHub: github.com/NishkarshRaj",
             link("tel:+919005445752")[+91-9005445752]
         )
     ]
@@ -91,7 +91,7 @@
 #resume_section(
     "Skills",
     [
-        *Cloud & Infrastructure*: AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker
+        *Cloud & Infrastructure*: Amazon Web Services - AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker
 
         *Data Platform*: Strimzi Kafka Connect, Snowflake (Snowpipe), Apache Airflow, CloudNativePG, Redis, PostgreSQL
 
@@ -100,6 +100,8 @@
         *Platform Engineering*: Backstage.io, GitOps, multi-cluster EKS, service mesh (Istio), CI/CD (GitLab, GitHub Actions)
 
         *Languages*: Python, Bash, Go, Java
+
+        *Keywords*: Site Reliability Engineering (SRE), Infrastructure as Code (IaC), Continuous Integration/Continuous Deployment (CI/CD), GitOps, Cloud Architecture, Microservices, Containers, Monitoring, Alerting, Incident Management
     ],
 )
 
@@ -116,7 +118,7 @@
                 - Operate 536 Kafka Connect connectors (Strimzi) sinking to Snowflake and S3 — tuned buffer/task settings reducing Snowflake API calls by 50% after rate limit incident
                 - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) processing cost data across 15 accounts — identified \$2M annual savings through automated resource scanning
                 - Manage 40 CloudNativePG clusters with automated switchover, WAL archival to S3, and replication monitoring
-                - Architecting Airflow v2→v3 migration with parallel instances, fresh CNPG databases, and per-state feature flags for zero-risk rollout
+                - Architecting Airflow v2->v3 migration with parallel instances, fresh CNPG databases, and per-state feature flags for zero-risk rollout
                 - Built Dynatrace dashboards (Terraform + dtctl) and custom OTEL metrics for Kafka Connect, Airflow, and GR-SMB workloads
                 - Conduct RCAs for production incidents — Karpenter consolidation cascades, Snowflake token expiry, Redis eviction impacts — with Jira documentation and remediation
             ]
@@ -130,7 +132,7 @@
                 - Architected enterprise Backstage.io platform serving 2000+ engineers — reduced onboarding from 4 weeks to 3 days with 300+ self-service templates
                 - Built unified observability across Broadcom acquisitions (CA, Symantec, VMware) — 1M+ deployment events daily, DORA metrics dashboards
                 - Designed IDP for William Hill's 150+ engineers with GitOps workflows — reduced new market launch from 6 months to 2 weeks
-                - Led GitHub Enterprise migrations (SVN/Bitbucket → GitHub) for 2000+ developers — completed 2 months ahead of schedule
+                - Led GitHub Enterprise migrations (SVN/Bitbucket -> GitHub) for 2000+ developers — completed 2 months ahead of schedule
                 - Optimized 50,000+ GitHub repositories — automated archival recovered 30% storage, saved \$400K annually
             ]
         )
@@ -170,7 +172,7 @@
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified* (02/2023) ∙ *GitHub Administration Certified* (01/2023) ∙ *GitHub Actions Certified* (12/2022)
+        - *GitHub Advanced Security Certified* (02/2023)  |  *GitHub Administration Certified* (01/2023)  |  *GitHub Actions Certified* (12/2022)
     ],
     print_bottom_line: true,
 )
