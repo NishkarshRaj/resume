@@ -1,10 +1,10 @@
 #set text(font: "New Computer Modern")
 #set page(
     margin: (
-        left: 0.6in,
-        right: 0.6in, 
-        top: 0.4in,
-        bottom: 0.4in,
+        left: 0.5in,
+        right: 0.5in, 
+        top: 0.35in,
+        bottom: 0.35in,
     ),
 )
 
@@ -13,9 +13,9 @@
 #let lightergray = rgb("626262")
 #let lightgray = rgb("595959")
 
-#show text: set text(0.95em)
+#show text: set text(0.9em)
 #show link: set text(fill: link_colour)
-#set par(leading: 0.55em)
+#set par(leading: 0.5em)
 
 #show list: set list(marker: [-])
 
@@ -41,7 +41,7 @@
         #grid(
             columns: (2fr, 10fr),
             column-gutter: 0.2em,
-            row-gutter: 1.5em,
+            row-gutter: 1.2em,
             line(length: 100%, stroke: 2.5pt + lightgray),
             line(length: 100%, stroke: 2.5pt + lightestgray),
             smallcaps(section_name),
@@ -68,8 +68,8 @@
         #grid(
             columns: (auto),
             align: (end),
-            row-gutter: 0.5em,
-            "Jersey City, New Jersey, United States 07302",
+            row-gutter: 0.4em,
+            "Jersey City, NJ 07302",
             link("mailto:nishkarshraj000@gmail.com"),
             "LinkedIn: linkedin.com/in/nishkarshraj",
             "GitHub: github.com/NishkarshRaj",
@@ -81,20 +81,20 @@
 #resume_section(
     "Summary",
     [
-        Staff Platform Engineer with 6+ years architecting cloud infrastructure at Fortune 500 scale. Currently designing multi-cluster EKS platform (100+ nodes), 536 Kafka connectors, and 40 PostgreSQL clusters across 35 US states at Caesars Entertainment. Delivered \$7M in infrastructure savings through Graviton migration, AI-powered FinOps automation, and platform consolidation. Three-time GitHub Stars Award Winner.
+        Staff Platform Engineer with 6+ years architecting cloud infrastructure at Fortune 500 scale. Designing multi-cluster EKS platform (100+ nodes), 536 Kafka connectors, and 40 PostgreSQL clusters across 35 US states at Caesars Entertainment. Delivered \$7M in savings through Graviton migration, AI-powered FinOps, and platform consolidation. Three-time GitHub Stars Award Winner.
     ],
 )
 
 #resume_section(
     "Skills",
     [
-        *Cloud & Infrastructure*: Amazon Web Services - AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker
+        *Cloud & Infrastructure*: AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker
 
         *Data Platform*: Strimzi Kafka Connect, Snowflake (Snowpipe), Apache Airflow, CloudNativePG, Redis, PostgreSQL
 
         *Observability*: OpenTelemetry, Dynatrace, New Relic, Prometheus, distributed tracing, custom metrics SDK
 
-        *Platform Engineering*: Backstage.io, GitOps, multi-cluster EKS, Istio service mesh, CI/CD (GitLab, GitHub Actions)
+        *Platform*: Backstage.io, GitOps, multi-cluster EKS, Istio, CI/CD (GitLab, GitHub Actions)
 
         *Languages*: Python, Bash, Go, Java
     ],
@@ -105,35 +105,35 @@
     [
         #lines_with_date_and_description(
             strong("Staff Platform Engineer") + ", Caesars Entertainment (via StatusNeo)",
-            emph("07/2024 - Present"),
-            location: "Jersey City, New Jersey, United States",
+            emph("07/2024 – Present"),
+            location: "Jersey City, New Jersey",
             [
-                - Architected multi-cluster EKS platform (3 clusters, 100+ Graviton nodes) across 15 AWS accounts serving 35-state regulatory compliance -- designed namespace isolation per state, led ARM64 migration achieving 40% compute cost reduction, and resolved FluxCD/Karpenter scaling conflicts through custom node provisioning logic
-                - Designed high-throughput Kafka data pipeline architecture (536 Strimzi connectors) streaming to Snowflake and S3 -- optimized connector topology and buffer configuration reducing Snowflake API calls by 50%, preventing rate limit incidents while maintaining 99.9% pipeline uptime
-                - Built AI-powered FinOps platform using AWS Bedrock (Claude) and FastAPI processing cost data across 15 accounts -- automated resource scanning and anomaly detection identified \$2M annual savings through rightsizing and waste elimination
-                - Architected Airflow v2->v3 zero-downtime migration strategy -- designed parallel instance approach with fresh CloudNativePG databases, per-state feature flags, and automated validation ensuring 3,400+ DAG continuity across regulatory environments
-                - Built comprehensive observability stack with Dynatrace dashboards (Terraform + dtctl) and custom OpenTelemetry metrics -- reduced MTTR by implementing automated RCA workflows for Karpenter, Snowflake token, and Redis incidents
+                - Architected multi-cluster EKS platform (3 clusters, 100+ Graviton nodes, 15 AWS accounts) for 35-state regulatory compliance -- designed namespace isolation per state, led ARM64 migration achieving 40% cost reduction, resolved FluxCD/Karpenter conflicts through custom node provisioning
+                - Designed high-throughput Kafka pipeline (536 Strimzi connectors) streaming to Snowflake/S3 -- optimized connector topology and buffer config reducing Snowflake API calls by 50% while maintaining 99.9% uptime
+                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) across 15 accounts -- automated resource scanning identified \$2M annual savings through rightsizing and waste elimination
+                - Architected Airflow v2→v3 zero-downtime migration -- parallel instances with fresh CloudNativePG databases, per-state feature flags, and automated validation for 3,400+ DAG continuity
+                - Built observability stack with Dynatrace (Terraform + dtctl) and custom OpenTelemetry metrics -- reduced MTTR through automated RCA for Karpenter, Snowflake, and Redis incidents
             ]
         )
 
         #lines_with_date_and_description(
             strong("Senior Platform Engineer") + ", StatusNeo",
-            emph("01/2022 - 07/2024"),
-            location: "Gurugram, Haryana, India",
+            emph("01/2022 – 07/2024"),
+            location: "Gurugram, India",
             [
-                - Architected enterprise Backstage.io platform serving 2000+ engineers with 300+ self-service templates -- designed plugin architecture achieving sub-second scaffolding, reduced onboarding from 4 weeks to 3 days, maintained 99.9% uptime
-                - Built unified observability platform across Broadcom acquisitions (CA, Symantec, VMware) processing 1M+ deployment events daily -- implemented custom Prometheus exporters and real-time DORA metrics dashboards enabling data-driven decisions for 10,000+ engineers
-                - Led developer experience transformation for William Hill (150+ engineers) with GitOps IaC platform -- reduced infrastructure provisioning from 2 weeks to 15 minutes, accelerated new market launch from 6 months to 2 weeks
-                - Led GitHub Enterprise migrations for 2000+ developers -- architected zero-downtime migration from SVN/Bitbucket, completed 2 months ahead of schedule, optimized 50,000+ repositories recovering 30% storage (\$400K annual savings)
+                - Architected enterprise Backstage.io platform for 2000+ engineers -- designed plugin architecture with sub-second scaffolding, 300+ templates, reduced onboarding from 4 weeks to 3 days
+                - Built unified observability across Broadcom acquisitions (CA, Symantec, VMware) -- 1M+ deployment events daily, custom Prometheus exporters, DORA metrics for 10,000+ engineers
+                - Led IDP for William Hill (150+ engineers) with GitOps workflows -- reduced provisioning from 2 weeks to 15 minutes, accelerated market launch from 6 months to 2 weeks
+                - Led GitHub Enterprise migrations for 2000+ developers (SVN/Bitbucket → GitHub) -- zero-downtime, 2 months ahead of schedule, recovered 30% storage (\$400K savings)
             ]
         )
 
         #lines_with_date_and_description(
             strong("Platform Engineer") + ", StatusNeo",
-            emph("05/2020 - 01/2022"),
-            location: "Gurugram, Haryana, India",
+            emph("05/2020 – 01/2022"),
+            location: "Gurugram, India",
             [
-                - Architected AI model orchestration platform on Kubernetes (Seldon Core, gRPC) achieving sub-200ms P95 latency -- enabled production deployment of 50+ ML models, established foundation for organization's AI practices
+                - Architected AI model orchestration on Kubernetes (Seldon Core, gRPC) -- sub-200ms P95 latency, 50+ ML models in production, established org's AI platform practices
             ]
         )
     ],
@@ -144,26 +144,18 @@
     [
         #lines_with_date_and_description(
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
-            emph("07/2017 - 05/2021"),
+            emph("07/2017 – 05/2021"),
             [
-                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6) -- Gold Medalist, Dean's List I-VIII
+                #emph("B.Tech Computer Science") (CGPA: 9.6) -- Gold Medalist, Dean's List All Semesters
             ]
         )
     ],
 )
 
 #resume_section(
-    "Open Source & Certifications",
+    "Awards & Certs",
     [
-        - GitHub Stars Award (2021, 2022, 2023) by Microsoft | GitHub Advanced Security Certified (02/2023) | GitHub Administration Certified (01/2023) | GitHub Actions Certified (12/2022)
+        - GitHub Stars Award (2021, 2022, 2023) by Microsoft | GitHub Advanced Security (02/2023) | GitHub Admin (01/2023) | GitHub Actions (12/2022)
     ],
     print_bottom_line: true,
 )
-
-#align(start + bottom)[
-    #text(gray)[
-      Last updated on #datetime.today().display(
-        "[month repr:short] [day], [year]",
-      ). Download the most recent version from #link("https://github.com/nishkarshraj/resume/releases/download/latest/resume-engineering.pdf")[here].
-    ]
-]
