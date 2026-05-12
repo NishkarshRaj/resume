@@ -12,9 +12,6 @@
 #let lightestgray = rgb("A9A9A9")
 #let lightergray = rgb("626262")
 #let lightgray = rgb("595959")
-#let midgray = rgb("393939")
-#let darkgray = rgb("292929")
-#let verydarkgray = rgb("191919")
 
 #show text: set text(0.95em)
 #show link: set text(fill: link_colour)
@@ -84,7 +81,7 @@
 #resume_section(
     "Summary",
     [
-        Staff Platform Engineer with 6+ years architecting cloud infrastructure at Fortune 500 scale. Currently managing 3 EKS clusters (100+ nodes), 15 AWS accounts, and 536 Kafka connectors across 35 US states for Caesars Entertainment. Delivered \$7M in infrastructure savings through Graviton migration, FinOps automation, and platform consolidation. Three-time GitHub Stars Award Winner.
+        Staff Platform Engineer with 6+ years architecting cloud infrastructure at Fortune 500 scale. Currently designing multi-cluster EKS platform (100+ nodes), 536 Kafka connectors, and 40 PostgreSQL clusters across 35 US states at Caesars Entertainment. Delivered \$7M in infrastructure savings through Graviton migration, AI-powered FinOps automation, and platform consolidation. Three-time GitHub Stars Award Winner.
     ],
 )
 
@@ -95,13 +92,11 @@
 
         *Data Platform*: Strimzi Kafka Connect, Snowflake (Snowpipe), Apache Airflow, CloudNativePG, Redis, PostgreSQL
 
-        *Observability*: OpenTelemetry, Dynatrace, New Relic, Prometheus, distributed tracing, custom metrics SDK, DQL
+        *Observability*: OpenTelemetry, Dynatrace, New Relic, Prometheus, distributed tracing, custom metrics SDK
 
-        *Platform Engineering*: Backstage.io, GitOps, multi-cluster EKS, service mesh (Istio), CI/CD (GitLab, GitHub Actions)
+        *Platform Engineering*: Backstage.io, GitOps, multi-cluster EKS, Istio service mesh, CI/CD (GitLab, GitHub Actions)
 
         *Languages*: Python, Bash, Go, Java
-
-        *Keywords*: Site Reliability Engineering (SRE), Infrastructure as Code (IaC), Continuous Integration/Continuous Deployment (CI/CD), GitOps, Cloud Architecture, Microservices, Containers, Monitoring, Alerting, Incident Management
     ],
 )
 
@@ -113,14 +108,11 @@
             emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
-                - Manage 3 EKS data clusters (nonprod/cert/prod, 100+ Graviton nodes) across 15 AWS accounts serving 35 US state regulatory compliance workloads
-                - Led full ARM64 Graviton migration — migrated all nodepools, resolved FluxCD/Karpenter conflicts, achieved 40% compute cost reduction with zero downtime
-                - Operate 536 Kafka Connect connectors (Strimzi) sinking to Snowflake and S3 — tuned buffer/task settings reducing Snowflake API calls by 50% after rate limit incident
-                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) processing cost data across 15 accounts — identified \$2M annual savings through automated resource scanning
-                - Manage 40 CloudNativePG clusters with automated switchover, WAL archival to S3, and replication monitoring
-                - Architecting Airflow v2->v3 migration with parallel instances, fresh CNPG databases, and per-state feature flags for zero-risk rollout
-                - Built Dynatrace dashboards (Terraform + dtctl) and custom OTEL metrics for Kafka Connect, Airflow, and GR-SMB workloads
-                - Conduct RCAs for production incidents — Karpenter consolidation cascades, Snowflake token expiry, Redis eviction impacts — with Jira documentation and remediation
+                - Architected multi-cluster EKS platform (3 clusters, 100+ Graviton nodes) across 15 AWS accounts serving 35-state regulatory compliance -- designed namespace isolation per state, led ARM64 migration achieving 40% compute cost reduction, and resolved FluxCD/Karpenter scaling conflicts through custom node provisioning logic
+                - Designed high-throughput Kafka data pipeline architecture (536 Strimzi connectors) streaming to Snowflake and S3 -- optimized connector topology and buffer configuration reducing Snowflake API calls by 50%, preventing rate limit incidents while maintaining 99.9% pipeline uptime
+                - Built AI-powered FinOps platform using AWS Bedrock (Claude) and FastAPI processing cost data across 15 accounts -- automated resource scanning and anomaly detection identified \$2M annual savings through rightsizing and waste elimination
+                - Architected Airflow v2->v3 zero-downtime migration strategy -- designed parallel instance approach with fresh CloudNativePG databases, per-state feature flags, and automated validation ensuring 3,400+ DAG continuity across regulatory environments
+                - Built comprehensive observability stack with Dynatrace dashboards (Terraform + dtctl) and custom OpenTelemetry metrics -- reduced MTTR by implementing automated RCA workflows for Karpenter, Snowflake token, and Redis incidents
             ]
         )
 
@@ -129,11 +121,10 @@
             emph("01/2022 - 07/2024"),
             location: "Gurugram, Haryana, India",
             [
-                - Architected enterprise Backstage.io platform serving 2000+ engineers — reduced onboarding from 4 weeks to 3 days with 300+ self-service templates
-                - Built unified observability across Broadcom acquisitions (CA, Symantec, VMware) — 1M+ deployment events daily, DORA metrics dashboards
-                - Designed IDP for William Hill's 150+ engineers with GitOps workflows — reduced new market launch from 6 months to 2 weeks
-                - Led GitHub Enterprise migrations (SVN/Bitbucket -> GitHub) for 2000+ developers — completed 2 months ahead of schedule
-                - Optimized 50,000+ GitHub repositories — automated archival recovered 30% storage, saved \$400K annually
+                - Architected enterprise Backstage.io platform serving 2000+ engineers with 300+ self-service templates -- designed plugin architecture achieving sub-second scaffolding, reduced onboarding from 4 weeks to 3 days, maintained 99.9% uptime
+                - Built unified observability platform across Broadcom acquisitions (CA, Symantec, VMware) processing 1M+ deployment events daily -- implemented custom Prometheus exporters and real-time DORA metrics dashboards enabling data-driven decisions for 10,000+ engineers
+                - Led developer experience transformation for William Hill (150+ engineers) with GitOps IaC platform -- reduced infrastructure provisioning from 2 weeks to 15 minutes, accelerated new market launch from 6 months to 2 weeks
+                - Led GitHub Enterprise migrations for 2000+ developers -- architected zero-downtime migration from SVN/Bitbucket, completed 2 months ahead of schedule, optimized 50,000+ repositories recovering 30% storage (\$400K annual savings)
             ]
         )
 
@@ -142,8 +133,7 @@
             emph("05/2020 - 01/2022"),
             location: "Gurugram, Haryana, India",
             [
-                - Built AI model orchestration platform on Kubernetes (Seldon Core, gRPC) — sub-200ms P95 latency, 50+ ML models in production
-                - Founding engineer — built cloud practice from zero, established AWS/Kubernetes consulting methodology
+                - Architected AI model orchestration platform on Kubernetes (Seldon Core, gRPC) achieving sub-200ms P95 latency -- enabled production deployment of 50+ ML models, established foundation for organization's AI practices
             ]
         )
     ],
@@ -156,23 +146,16 @@
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
             emph("07/2017 - 05/2021"),
             [
-                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6) — Gold Medalist, Dean's List I-VIII
+                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6) -- Gold Medalist, Dean's List I-VIII
             ]
         )
     ],
 )
 
 #resume_section(
-    "Open Source",
+    "Open Source & Certifications",
     [
-        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized by Microsoft for open source contributions and developer community building
-    ],
-)
-
-#resume_section(
-    "Certifications",
-    [
-        - *GitHub Advanced Security Certified* (02/2023)  |  *GitHub Administration Certified* (01/2023)  |  *GitHub Actions Certified* (12/2022)
+        - GitHub Stars Award (2021, 2022, 2023) by Microsoft | GitHub Advanced Security Certified (02/2023) | GitHub Administration Certified (01/2023) | GitHub Actions Certified (12/2022)
     ],
     print_bottom_line: true,
 )
