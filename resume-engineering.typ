@@ -15,7 +15,7 @@
 
 #show text: set text(0.9em)
 #show link: set text(fill: link_colour)
-#set par(leading: 0.5em)
+#set par(leading: 0.45em)
 
 #show list: set list(marker: [-])
 
@@ -41,7 +41,7 @@
         #grid(
             columns: (2fr, 10fr),
             column-gutter: 0.2em,
-            row-gutter: 1.2em,
+            row-gutter: 1.0em,
             line(length: 100%, stroke: 2.5pt + lightgray),
             line(length: 100%, stroke: 2.5pt + lightestgray),
             smallcaps(section_name),
@@ -68,7 +68,7 @@
         #grid(
             columns: (auto),
             align: (end),
-            row-gutter: 0.4em,
+            row-gutter: 0.3em,
             "Jersey City, NJ 07302",
             link("mailto:nishkarshraj000@gmail.com"),
             "LinkedIn: linkedin.com/in/nishkarshraj",
