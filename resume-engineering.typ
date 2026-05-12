@@ -84,24 +84,22 @@
 #resume_section(
     "Summary",
     [
-        Staff Platform Engineer with 6+ years architecting cloud infrastructure, AI platforms, and developer tooling at Fortune 500 scale. Built systems serving 2000+ engineers processing 25M+ events daily with 99.9% uptime. Delivered \$7M in infrastructure optimization through systematic cost reduction and AI-powered automation. Led platform initiatives from architecture through production deployment. Three-time GitHub Stars Award Winner.
+        Staff Platform Engineer with 6+ years architecting cloud infrastructure at Fortune 500 scale. Currently managing 3 EKS clusters (100+ nodes), 15 AWS accounts, and 536 Kafka connectors across 35 US states for Caesars Entertainment. Delivered \$7M in infrastructure savings through Graviton migration, FinOps automation, and platform consolidation. Three-time GitHub Stars Award Winner.
     ],
 )
 
 #resume_section(
     "Skills",
     [
-        *Cloud & Infrastructure*: AWS (EKS, RDS, EC2, S3, KMS, Bedrock), Kubernetes, Terraform, Helm, FluxCD, Karpenter, Docker
+        *Cloud & Infrastructure*: AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker
 
-        *Platform Engineering*: Backstage.io, Apache Airflow, CI/CD orchestration, GitOps, service mesh, multi-tenancy
+        *Data Platform*: Strimzi Kafka Connect, Snowflake (Snowpipe), Apache Airflow, CloudNativePG, Redis, PostgreSQL
 
-        *Observability & Reliability*: OpenTelemetry, New Relic, Prometheus, distributed tracing, self-healing systems, SRE practices
+        *Observability*: OpenTelemetry, Dynatrace, New Relic, Prometheus, distributed tracing, custom metrics SDK, DQL
 
-        *AI/ML Infrastructure*: Kubernetes operators, Seldon Core, gRPC, model serving, LLM integration, AWS Bedrock
+        *Platform Engineering*: Backstage.io, GitOps, multi-cluster EKS, service mesh (Istio), CI/CD (GitLab, GitHub Actions)
 
-        *Languages*: Python, Bash, Java, Go
-
-        *Databases & Messaging*: PostgreSQL, Redis, Kafka, event-driven architectures
+        *Languages*: Python, Bash, Go, Java
     ],
 )
 
@@ -109,15 +107,18 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Platform Engineering Architect") + ", StatusNeo",
+            strong("Staff Platform Engineer") + ", Caesars Entertainment (via StatusNeo)",
             emph("07/2024 - Present"),
             location: "Jersey City, New Jersey, United States",
             [
-                - Built AI-powered cost optimization platform using AWS Bedrock (Claude Opus) and FastAPI processing 25M+ cost events daily -- developed custom AWS SDK scanners for resource analysis, integrated with Bedrock models to generate Executive Summaries, Priority Matrices, and Project Plans for strategic savings beyond low-hanging cleanups -- reduced infrastructure waste by \$2M annually across multi-cloud environments
-                - Drove cloud infrastructure optimization across 500+ AWS resources serving 35-state regulatory compliance platform -- designed RDS right-sizing framework analyzing 6-month CloudWatch metrics, architected ARM-based Graviton migration strategy (40% performance improvement), implemented S3 Intelligent Tiering with automated lifecycle policies, and redesigned KMS architecture for batch processing (94% cost reduction) -- delivered \$5M annual savings while maintaining 99.95% uptime SLA
-                - Architected self-healing Kubernetes platform using custom FluxCD operators and Karpenter autoscaling -- designed comprehensive OpenTelemetry instrumentation for distributed tracing, built automated incident response system integrating GitLab/JIRA workflows, and implemented chaos engineering practices -- reduced MTTR from 4 hours to 35 minutes and P0 incidents by 96% (1,000 → 40 per quarter)
-                - Designed and led implementation of multi-tenant Apache Airflow platform on EKS managing 3,400+ DAGs -- architected namespace isolation strategy, optimized DAG execution engine (35% performance improvement), built custom operators for state-specific compliance, and implemented comprehensive observability -- replaced \$650K annual Astronomer licensing while achieving 99.95% uptime
-                - Led enterprise Git platform migrations for 2000+ developers -- architected zero-downtime migration strategy from SVN/Bitbucket to GitHub Enterprise, designed automated repository conversion tooling with parallel validation, built CI/CD pipeline templates, and implemented comprehensive monitoring -- completed migrations 2 months ahead of schedule
+                - Manage 3 EKS data clusters (nonprod/cert/prod, 100+ Graviton nodes) across 15 AWS accounts serving 35 US state regulatory compliance workloads
+                - Led full ARM64 Graviton migration — migrated all nodepools, resolved FluxCD/Karpenter conflicts, achieved 40% compute cost reduction with zero downtime
+                - Operate 536 Kafka Connect connectors (Strimzi) sinking to Snowflake and S3 — tuned buffer/task settings reducing Snowflake API calls by 50% after rate limit incident
+                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) processing cost data across 15 accounts — identified \$2M annual savings through automated resource scanning
+                - Manage 40 CloudNativePG clusters with automated switchover, WAL archival to S3, and replication monitoring
+                - Architecting Airflow v2→v3 migration with parallel instances, fresh CNPG databases, and per-state feature flags for zero-risk rollout
+                - Built Dynatrace dashboards (Terraform + dtctl) and custom OTEL metrics for Kafka Connect, Airflow, and GR-SMB workloads
+                - Conduct RCAs for production incidents — Karpenter consolidation cascades, Snowflake token expiry, Redis eviction impacts — with Jira documentation and remediation
             ]
         )
 
@@ -126,19 +127,21 @@
             emph("01/2022 - 07/2024"),
             location: "Gurugram, Haryana, India",
             [
-                - Architected enterprise internal developer platform on Backstage.io serving 2000+ engineers across Fortune 500 deployments -- designed extensible plugin architecture supporting 300+ service templates, optimized project scaffolding to sub-second performance through Cookiecutter refactoring, built custom TechDocs engine with real-time collaboration, and implemented comprehensive usage analytics -- reduced engineer onboarding from 4 weeks to 3 days while achieving 99.9% platform uptime
-                - Designed unified observability platform integrating tooling across multiple business units (CA, Symantec, VMware) -- architected metrics aggregation layer processing 1M+ deployment events daily, implemented custom Prometheus exporters for legacy systems, built real-time DORA metrics calculation engine, and created executive dashboards -- enabled data-driven decisions across 10,000+ engineers
-                - Led developer experience transformation for 150+ engineers -- architected platform with 300+ self-service IaC patterns, designed Terraform module registry with automated validation, implemented GitOps workflows with FluxCD, and built Backstage actions for one-click deployments -- reduced infrastructure provisioning from 2 weeks to 15 minutes, enabling new market launch acceleration from 6 months to 2 weeks
-                - Designed GitHub Enterprise optimization strategy analyzing 50,000+ repositories -- built automated archival workflows using commit history analysis and GitHub API automation, architected zero-downtime GHE upgrade tooling, and implemented cost tracking dashboards -- recovered 30% storage capacity and reduced operational overhead by \$400K annually
+                - Architected enterprise Backstage.io platform serving 2000+ engineers — reduced onboarding from 4 weeks to 3 days with 300+ self-service templates
+                - Built unified observability across Broadcom acquisitions (CA, Symantec, VMware) — 1M+ deployment events daily, DORA metrics dashboards
+                - Designed IDP for William Hill's 150+ engineers with GitOps workflows — reduced new market launch from 6 months to 2 weeks
+                - Led GitHub Enterprise migrations (SVN/Bitbucket → GitHub) for 2000+ developers — completed 2 months ahead of schedule
+                - Optimized 50,000+ GitHub repositories — automated archival recovered 30% storage, saved \$400K annually
             ]
         )
 
         #lines_with_date_and_description(
             strong("Platform Engineer") + ", StatusNeo",
-            emph("05/2021 - 01/2022"),
+            emph("05/2020 - 01/2022"),
             location: "Gurugram, Haryana, India",
             [
-                - Architected AI model orchestration platform on Kubernetes using Seldon Core and custom operators -- designed gRPC-based model serving architecture achieving sub-200ms P95 latency, implemented canary deployment strategies for safe model rollouts, built Python SDK for data scientists, and created comprehensive monitoring -- enabled on-demand deployment of 50+ ML models across research and production, establishing foundation for organization's AI practices
+                - Built AI model orchestration platform on Kubernetes (Seldon Core, gRPC) — sub-200ms P95 latency, 50+ ML models in production
+                - Founding engineer — built cloud practice from zero, established AWS/Kubernetes consulting methodology
             ]
         )
     ],
@@ -151,26 +154,23 @@
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
             emph("07/2017 - 05/2021"),
             [
-                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6)\
-                Dean's List Semester I-VIII, Gold Medalist, Meritorious Scholarship Recipient
+                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6) — Gold Medalist, Dean's List I-VIII
             ]
         )
     ],
 )
 
 #resume_section(
-    "Open Source & Community",
+    "Open Source",
     [
-        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized for open source contributions and community building -- taught 1000+ students, established GitHub/Linux Foundation university partnerships at UPES
+        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized by Microsoft for open source contributions and developer community building
     ],
 )
 
 #resume_section(
     "Certifications",
     [
-        - *GitHub Advanced Security Certified* (02/2023)
-        - *GitHub Administration Certified* (01/2023)
-        - *GitHub Actions Certified* (12/2022)
+        - *GitHub Advanced Security Certified* (02/2023) ∙ *GitHub Administration Certified* (01/2023) ∙ *GitHub Actions Certified* (12/2022)
     ],
     print_bottom_line: true,
 )
