@@ -81,18 +81,18 @@
 #resume_section(
     "Summary",
     [
-        Staff Platform Engineer with 6+ years architecting cloud infrastructure and developer platforms for Fortune 500 organizations across the US, UK, and India. Delivered \$7M+ in infrastructure savings and reduced production incidents by 96% while operating multi-cluster EKS platforms across 35 regulated jurisdictions. Built AI-native FinOps tooling on AWS Bedrock. Three-time GitHub Stars Award Winner.
+        Staff Platform Engineer with 6+ years architecting cloud infrastructure and developer platforms for Fortune 500 organizations. Delivered \$7M+ in infrastructure savings and reduced production incidents by 96% across multi-cluster EKS platforms serving 35 regulated jurisdictions. Built AI-native FinOps tooling on AWS Bedrock. Three-time GitHub Stars Award Winner.
     ],
 )
 
 #resume_section(
     "Skills",
     [
-        *Cloud & Platform*: AWS (EKS, RDS, EC2, S3, KMS, MSK, Bedrock), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker, Backstage.io, Istio, GitOps
+        *Cloud & Platform*: AWS (EKS, RDS, EC2, S3, KMS, MSK, Bedrock), Azure (AKS), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker, Backstage.io, Istio, GitOps
 
         *Data & Observability*: Strimzi Kafka Connect, Snowflake, Apache Airflow, CloudNativePG, PostgreSQL, Redis, OpenTelemetry, Dynatrace, New Relic, Prometheus, distributed tracing
 
-        *Languages & CI/CD*: Python, Bash, Go, Java, GitLab CI, GitHub Actions
+        *Languages & CI/CD*: Python, Bash, Go, Java, FastAPI, GitLab CI, GitHub Actions, GitHub Enterprise
     ],
 )
 
@@ -125,11 +125,12 @@
         )
 
         #lines_with_date_and_description(
-            strong("Platform Engineer") + ", StatusNeo",
+            strong("Founding Engineer") + ", StatusNeo",
             emph("05/2020 – 01/2022"),
             location: "Gurugram, India",
             [
-                - Architected AI model orchestration on Kubernetes (Seldon Core, gRPC) achieving sub-200ms P95 latency across 50+ ML models in production for Reliance Jio University
+                - Architected AI model orchestration on Azure Kubernetes Service (Seldon Core, gRPC) achieving sub-200ms P95 latency across 50+ ML models in production, building the data pipelines powering Reliance Jio University's AI Exchange Platform
+                - Founding engineer (employee \#5) through scale to 500+ people across 4 regions; established the Backstage.io Center of Excellence and developer experience practice that became the foundation for the company's enterprise platform product
             ]
         )
     ],
