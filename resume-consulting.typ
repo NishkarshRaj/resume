@@ -18,7 +18,7 @@
 
 #show text: set text(0.9em)
 #show link: set text(fill: link_colour)
-#set par(leading: 0.45em)
+#set par(leading: 0.43em)
 
 #show list: set list(marker: [-])
 
@@ -35,7 +35,7 @@
             #v(-0.5em)
             #text(size: 0.9em, fill: lightergray)[#location]
         ]
-        #v(-0.65em) #description
+        #v(-0.6em) #description
     ]
 }
 
@@ -74,8 +74,8 @@
             row-gutter: 0.5em,
             "New Delhi, India",
             link("mailto:nishkarshraj000@gmail.com"),
-            "LinkedIn: linkedin.com/in/nishkarshraj",
-            "GitHub: github.com/NishkarshRaj",
+            link("https://linkedin.com/in/nishkarshraj")[linkedin.com/in/nishkarshraj],
+            link("https://github.com/NishkarshRaj")[github.com/NishkarshRaj],
             link("tel:+919005445752")[+91-9005445752]
         )
     ]
@@ -84,24 +84,20 @@
 #resume_section(
     "Summary",
     [
-        Practice Leader - FinAIOps, Platform Engineering & Observability with 6+ years delivering cloud infrastructure at Fortune 500 scale. Led multi-cluster EKS platforms, AI-native FinOps systems, and enterprise developer experience programs across 35 US states and multiple Fortune 500 clients. Three-time GitHub Stars Award Winner. SREDay Community Ambassador (2026).
+        Practice Leader for FinAIOps, Platform Engineering, and Observability with 6+ years building and selling enterprise platform programs to Fortune 500 buyers. Grew an enterprise developer experience product from zero to \$2M ARR and delivered \$7M+ in documented client infrastructure savings. Now scaling a global practice across four regions from India HQ. Three-time GitHub Stars Award Winner and SREDay Community Ambassador.
     ],
 )
 
 #resume_section(
     "Skills",
     [
-        *FinAIOps*: Amazon Bedrock, Claude, AI-native cost optimization, agentic remediation, multi-cloud scanning (AWS + GCP)
+        *FinAIOps & AI*: Amazon Bedrock (Claude), AI-native cost optimization, agentic remediation, multi-cloud scanning (AWS + GCP), FastAPI, custom AI agents
 
-        *Cloud & Platform*: Amazon Web Services - AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Backstage.io, FluxCD, Karpenter
+        *Cloud & Platform*: AWS (EKS, RDS, EC2, S3, KMS, MSK), Azure (AKS), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, Backstage.io, FluxCD, Karpenter, Istio, Docker
 
-        *Data & Observability*: Strimzi Kafka Connect, Snowflake, Apache Airflow, CloudNativePG, OpenTelemetry, Dynatrace, New Relic
+        *Data & Observability*: Strimzi Kafka Connect, Snowflake, Apache Airflow, CloudNativePG, OpenTelemetry, Dynatrace, New Relic, Prometheus
 
-        *DevOps & Tooling*: GitHub Enterprise (Actions, Copilot, Advanced Security), GitLab CI, Docker, Istio, Helmfile
-
-        *AI & Automation*: AWS Bedrock (Claude), FastAPI, FinOps automation, custom AI agents
-
-        *Languages*: Python, Bash, Terragrunt, Java
+        *DevOps & Languages*: GitHub Enterprise (Actions, Copilot, Advanced Security), GitLab CI, Python, Bash, Go, Java
     ],
 )
 
@@ -109,24 +105,25 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Practice Leader, FinAIOps, Platform Engineering & Observability") + ", StatusNeo",
+            strong("Practice Leader — FinAIOps & Platform Engineering") + ", StatusNeo",
             emph("08/2026 - Present"),
             location: "New Delhi, India",
             [
-                - Leading global practice across FinAIOps, Platform Engineering, and Observability from India HQ, defining offerings, delivery standards, and building the practice team
-                - Scaling practice across Fortune 500 engagements and continuing as architect on cloud, data, and developer experience engagements
+                - Leading global FinAIOps, Platform Engineering, and Observability practice from India HQ, taking offerings to market across the US, UK, South Africa, EMEA, Middle East, and Australia
+                - Won and delivering a commercial Backstage.io partnership with Spotify, positioning enterprise Developer Experience as a repeatable offering across the Fortune 500 client base
+                - Commercializing an AI-native FinOps platform as a delivery accelerator, built on \$7M+ of proven client savings from prior engagements
             ]
         )
 
         #lines_with_date_and_description(
             strong("Platform Engineering Architect") + ", StatusNeo (Consulting)",
             emph("07/2024 - 07/2026"),
-            location: "Client: Caesars Entertainment, Jersey City, NJ",
+            location: "Jersey City, NJ | Client: Caesars Entertainment",
             [
-                - Architected data platform across 3 EKS clusters, 15 AWS accounts, and 35 US states for regulatory compliance
+                - Architected the regulatory data platform across 3 EKS clusters, 15 AWS accounts, and 35 US states for compliance
                 - Led Graviton migration (100+ nodes) with zero downtime, achieving 40% compute cost reduction via FluxCD/Karpenter
                 - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) with automated scanning across 15 accounts, delivering \$2M+ in documented annual savings
-                - Operated 536 Kafka Connect connectors (Snowflake/S3 sinks), resolved rate limiting through task tuning and vendor coordination
+                - Designed 536-connector Kafka Connect pipeline (Snowflake/S3 sinks), reducing Snowflake API calls by 50% and eliminating rate limiting through connector topology and buffer tuning
                 - Delivered \$5M infrastructure optimization across RDS, S3 Intelligent Tiering, and KMS batch processing (94% reduction)
                 - Reduced P0 incidents from 1,000 to 40/quarter through self-healing GitOps, OpenTelemetry, and automated RCA workflows
             ]
@@ -135,7 +132,7 @@
         #lines_with_date_and_description(
             strong("Principal DevOps Engineer & Solutions Architect") + ", StatusNeo (Consulting)",
             emph("01/2022 - 07/2024"),
-            location: "Clients: Broadcom, McKinsey, William Hill, Gurugram, India",
+            location: "Gurugram, India | Clients: Broadcom, McKinsey, William Hill",
             [
                 - Led RearPortal (Backstage.io product) from 0 to \$2M ARR, securing Broadcom and McKinsey through Spotify partnership
                 - Conducted DevSecOps maturity assessment across Broadcom acquisitions (CA, Symantec, VMware), winning \$1M+ follow-on work
@@ -149,7 +146,8 @@
             emph("02/2020 - 01/2022"),
             location: "Gurugram, India",
             [
-                - Delivered AI model orchestration platform for Reliance Jio University (Kubernetes, Seldon Core, gRPC), sponsored by Chief Data Officer
+                - Founding engineer (employee \#5) through scale to 500+ people and market launches across India, UK, Middle East, and USA; established the Backstage.io Center of Excellence that became the firm's enterprise Developer Experience practice
+                - Delivered AI model orchestration platform for Reliance Jio University (Kubernetes, Seldon Core, gRPC) sponsored by the Chief Data Officer, establishing the client's AI platform practice
             ]
         )
     ],
@@ -165,6 +163,14 @@
                 #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6), Gold Medalist, Dean's List I-VIII
             ]
         )
+    ],
+)
+
+#resume_section(
+    "Speaking",
+    [
+        - *SREDay* NYC, London, San Francisco, and Seattle — Platform Engineering, FinOps, and Developer Experience at enterprise scale
+        - *GitHub Satellite India*, *KonfHub*, and *Harness HQ San Francisco* — open source advocacy and platform tooling
     ],
 )
 
