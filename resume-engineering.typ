@@ -69,7 +69,7 @@
             columns: (auto),
             align: (end),
             row-gutter: 0.3em,
-            "Jersey City, NJ 07302",
+            "New Delhi, India",
             link("mailto:nishkarshraj000@gmail.com"),
             "LinkedIn: linkedin.com/in/nishkarshraj",
             "GitHub: github.com/NishkarshRaj",
@@ -81,13 +81,15 @@
 #resume_section(
     "Summary",
     [
-        Staff Platform Engineer with 6+ years architecting cloud infrastructure at Fortune 500 scale. Designing multi-cluster EKS platform (100+ nodes), 536 Kafka connectors, and 40 PostgreSQL clusters across 35 US states at Caesars Entertainment. Delivered \$7M in savings through Graviton migration, AI-powered FinOps, and platform consolidation. Three-time GitHub Stars Award Winner.
+        Practice Leader - FinAIOps, Platform Engineering & Observability with 6+ years architecting cloud infrastructure at Fortune 500 scale. Led multi-cluster EKS platforms, AI-native FinOps systems, and enterprise developer experience programs across 35 US states and multiple Fortune 500 clients. Three-time GitHub Stars Award Winner. SREDay Community Ambassador (2026).
     ],
 )
 
 #resume_section(
     "Skills",
     [
+        *FinAIOps*: Amazon Bedrock, Claude, AI-native cost optimization, agentic remediation, multi-cloud scanning (AWS + GCP)
+
         *Cloud & Infrastructure*: AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker
 
         *Data Platform*: Strimzi Kafka Connect, Snowflake (Snowpipe), Apache Airflow, CloudNativePG, Redis, PostgreSQL
@@ -104,13 +106,24 @@
     "Experience",
     [
         #lines_with_date_and_description(
+            strong("Practice Leader — FinAIOps, Platform Engineering & Observability") + ", StatusNeo",
+            emph("08/2026 – Present"),
+            location: "New Delhi, India",
+            [
+                - Leading global practice spanning FinAIOps, Platform Engineering, and Observability from India HQ — defining offerings, delivery standards, and the practice team
+                - Building and scaling the practice across Fortune 500 client engagements and partnerships
+                - Continuing as architect on platform engineering and FinOps engagements across cloud, data, and developer experience
+            ]
+        )
+
+        #lines_with_date_and_description(
             strong("Staff Platform Engineer") + ", Caesars Entertainment (via StatusNeo)",
-            emph("07/2024 – Present"),
+            emph("07/2024 – 07/2026"),
             location: "Jersey City, New Jersey",
             [
                 - Architected multi-cluster EKS platform (3 clusters, 100+ Graviton nodes, 15 AWS accounts) for 35-state regulatory compliance -- designed namespace isolation per state, led ARM64 migration achieving 40% cost reduction, resolved FluxCD/Karpenter conflicts through custom node provisioning
                 - Designed high-throughput Kafka pipeline (536 Strimzi connectors) streaming to Snowflake/S3 -- optimized connector topology and buffer config reducing Snowflake API calls by 50% while maintaining 99.9% uptime
-                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) across 15 accounts -- automated resource scanning identified \$2M annual savings through rightsizing and waste elimination
+                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) across 15 accounts -- automated resource scanning delivered \$2M+ in documented annual savings through rightsizing and waste elimination
                 - Architected Airflow v2→v3 zero-downtime migration -- parallel instances with fresh CloudNativePG databases, per-state feature flags, and automated validation for 3,400+ DAG continuity
                 - Built observability stack with Dynatrace (Terraform + dtctl) and custom OpenTelemetry metrics -- reduced MTTR through automated RCA for Karpenter, Snowflake, and Redis incidents
             ]
@@ -155,7 +168,7 @@
 #resume_section(
     "Awards & Certs",
     [
-        - GitHub Stars Award (2021, 2022, 2023) by Microsoft | GitHub Advanced Security (02/2023) | GitHub Admin (01/2023) | GitHub Actions (12/2022)
+        - GitHub Stars Award (2021, 2022, 2023) by Microsoft | SREDay Community Ambassador (2026) | GitHub Advanced Security (02/2023) | GitHub Admin (01/2023) | GitHub Actions (12/2022)
     ],
     print_bottom_line: true,
 )

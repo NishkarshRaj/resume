@@ -72,7 +72,7 @@
             columns: (auto),
             align: (end),
             row-gutter: 0.5em,
-            "Jersey City, New Jersey, United States 07302",
+            "New Delhi, India",
             link("mailto:nishkarshraj000@gmail.com"),
             "LinkedIn: linkedin.com/in/nishkarshraj",
             "GitHub: github.com/NishkarshRaj",
@@ -84,13 +84,15 @@
 #resume_section(
     "Summary",
     [
-        Platform Engineering Architect with 6+ years delivering cloud infrastructure and developer platforms for Fortune 500 clients. Led consulting product from 0 to \$2M ARR. Delivered \$7M+ in infrastructure savings through AI-powered FinOps and platform consolidation. Currently architecting data platform infrastructure for Caesars Entertainment across 35 US states. Three-time GitHub Stars Award Winner. Day 0 founding engineer at StatusNeo.
+        Practice Leader - FinAIOps, Platform Engineering & Observability with 6+ years delivering cloud infrastructure at Fortune 500 scale. Led multi-cluster EKS platforms, AI-native FinOps systems, and enterprise developer experience programs across 35 US states and multiple Fortune 500 clients. Three-time GitHub Stars Award Winner. SREDay Community Ambassador (2026).
     ],
 )
 
 #resume_section(
     "Skills",
     [
+        *FinAIOps*: Amazon Bedrock, Claude, AI-native cost optimization, agentic remediation, multi-cloud scanning (AWS + GCP)
+
         *Cloud & Platform*: Amazon Web Services - AWS (EKS, RDS, EC2, S3, KMS, Bedrock, MSK), Kubernetes, Terraform, Terragrunt, Helm, Backstage.io, FluxCD, Karpenter
 
         *Data & Observability*: Strimzi Kafka Connect, Snowflake, Apache Airflow, CloudNativePG, OpenTelemetry, Dynatrace, New Relic
@@ -109,13 +111,24 @@
     "Experience",
     [
         #lines_with_date_and_description(
+            strong("Practice Leader — FinAIOps, Platform Engineering & Observability") + ", StatusNeo",
+            emph("08/2026 - Present"),
+            location: "New Delhi, India",
+            [
+                - Leading global practice spanning FinAIOps, Platform Engineering, and Observability from India HQ — defining offerings, delivery standards, and the practice team
+                - Building and scaling the practice across Fortune 500 client engagements and partnerships
+                - Continuing as architect on platform engineering and FinOps engagements across cloud, data, and developer experience
+            ]
+        )
+
+        #lines_with_date_and_description(
             strong("Platform Engineering Architect") + ", StatusNeo (Consulting)",
-            emph("07/2024 - Present"),
+            emph("07/2024 - 07/2026"),
             location: "Client: Caesars Entertainment — Jersey City, NJ",
             [
                 - Architecting data platform infrastructure across 3 EKS clusters, 15 AWS accounts, and 35 US states for regulatory compliance
                 - Led Graviton migration (100+ nodes) — zero downtime, 40% compute cost reduction, FluxCD/Karpenter coordination
-                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) — automated scanning across 15 accounts, \$2M annual savings identified
+                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) — automated scanning across 15 accounts, \$2M+ in documented annual savings delivered
                 - Operate 536 Kafka Connect connectors (Snowflake/S3 sinks) — resolved Snowflake rate limiting through task tuning and vendor coordination
                 - Driving Airflow v2->v3 migration with parallel instances and per-state feature flags across 40+ state deployments
                 - Delivered \$5M infrastructure optimization: RDS right-sizing, S3 Intelligent Tiering, KMS batch processing (94% reduction)
@@ -165,6 +178,7 @@
     "Awards",
     [
         - *GitHub Stars Award (2021, 2022, 2023)* – Recognized by Microsoft for open source evangelism and developer community building across India
+        - *SREDay Community Ambassador (2026)* – Selected as community ambassador for SREDay global conference
     ],
 )
 
