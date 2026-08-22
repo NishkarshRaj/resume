@@ -1,10 +1,10 @@
 #set text(font: "New Computer Modern")
 #set page(
     margin: (
-        left: 0.6in,
-        right: 0.6in, 
-        top: 0.4in,
-        bottom: 0.4in,
+        left: 0.5in,
+        right: 0.5in, 
+        top: 0.35in,
+        bottom: 0.35in,
     ),
 )
 
@@ -16,9 +16,9 @@
 #let darkgray = rgb("292929")
 #let verydarkgray = rgb("191919")
 
-#show text: set text(0.95em)
+#show text: set text(0.9em)
 #show link: set text(fill: link_colour)
-#set par(leading: 0.55em)
+#set par(leading: 0.45em)
 
 #show list: set list(marker: [-])
 
@@ -35,7 +35,7 @@
             #v(-0.5em)
             #text(size: 0.9em, fill: lightergray)[#location]
         ]
-        #v(-0.5em) #description
+        #v(-0.65em) #description
     ]
 }
 
@@ -44,7 +44,7 @@
         #grid(
             columns: (2fr, 10fr),
             column-gutter: 0.2em,
-            row-gutter: 1.5em,
+            row-gutter: 0.8em,
             line(length: 100%, stroke: 2.5pt + lightgray),
             line(length: 100%, stroke: 2.5pt + lightestgray),
             smallcaps(section_name),
@@ -102,8 +102,6 @@
         *AI & Automation*: AWS Bedrock (Claude), FastAPI, FinOps automation, custom AI agents
 
         *Languages*: Python, Bash, Terragrunt, Java
-
-        *Keywords*: Site Reliability Engineering (SRE), Infrastructure as Code (IaC), Continuous Integration/Continuous Deployment (CI/CD), GitOps, Cloud Architecture, Microservices, Containers, Monitoring, Incident Management, FinOps
     ],
 )
 
@@ -111,41 +109,38 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Practice Leader — FinAIOps, Platform Engineering & Observability") + ", StatusNeo",
+            strong("Practice Leader, FinAIOps, Platform Engineering & Observability") + ", StatusNeo",
             emph("08/2026 - Present"),
             location: "New Delhi, India",
             [
-                - Leading global practice spanning FinAIOps, Platform Engineering, and Observability from India HQ — defining offerings, delivery standards, and the practice team
-                - Building and scaling the practice across Fortune 500 client engagements and partnerships
-                - Continuing as architect on platform engineering and FinOps engagements across cloud, data, and developer experience
+                - Leading global practice across FinAIOps, Platform Engineering, and Observability from India HQ, defining offerings, delivery standards, and building the practice team
+                - Scaling practice across Fortune 500 engagements and continuing as architect on cloud, data, and developer experience engagements
             ]
         )
 
         #lines_with_date_and_description(
             strong("Platform Engineering Architect") + ", StatusNeo (Consulting)",
             emph("07/2024 - 07/2026"),
-            location: "Client: Caesars Entertainment — Jersey City, NJ",
+            location: "Client: Caesars Entertainment, Jersey City, NJ",
             [
-                - Architecting data platform infrastructure across 3 EKS clusters, 15 AWS accounts, and 35 US states for regulatory compliance
-                - Led Graviton migration (100+ nodes) — zero downtime, 40% compute cost reduction, FluxCD/Karpenter coordination
-                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) — automated scanning across 15 accounts, \$2M+ in documented annual savings delivered
-                - Operate 536 Kafka Connect connectors (Snowflake/S3 sinks) — resolved Snowflake rate limiting through task tuning and vendor coordination
-                - Driving Airflow v2->v3 migration with parallel instances and per-state feature flags across 40+ state deployments
-                - Delivered \$5M infrastructure optimization: RDS right-sizing, S3 Intelligent Tiering, KMS batch processing (94% reduction)
-                - Reduced P0 incidents from 1,000 to 40/quarter through self-healing GitOps, OpenTelemetry instrumentation, and automated RCA workflows
+                - Architected data platform across 3 EKS clusters, 15 AWS accounts, and 35 US states for regulatory compliance
+                - Led Graviton migration (100+ nodes) with zero downtime, achieving 40% compute cost reduction via FluxCD/Karpenter
+                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) with automated scanning across 15 accounts, delivering \$2M+ in documented annual savings
+                - Operated 536 Kafka Connect connectors (Snowflake/S3 sinks), resolved rate limiting through task tuning and vendor coordination
+                - Delivered \$5M infrastructure optimization across RDS, S3 Intelligent Tiering, and KMS batch processing (94% reduction)
+                - Reduced P0 incidents from 1,000 to 40/quarter through self-healing GitOps, OpenTelemetry, and automated RCA workflows
             ]
         )
 
         #lines_with_date_and_description(
             strong("Principal DevOps Engineer & Solutions Architect") + ", StatusNeo (Consulting)",
             emph("01/2022 - 07/2024"),
-            location: "Clients: Broadcom, McKinsey, William Hill — Gurugram, India",
+            location: "Clients: Broadcom, McKinsey, William Hill, Gurugram, India",
             [
-                - Led RearPortal (Backstage.io product) from 0 to \$2M ARR — secured Broadcom and McKinsey through Spotify partnership
-                - Conducted DevSecOps maturity assessment across Broadcom acquisitions (CA, Symantec, VMware) — won \$1M+ follow-on work
-                - Built IDP for William Hill's 150+ engineers — 300+ self-service patterns, reduced market launch from 6 months to 2 weeks
-                - Led GitHub Enterprise migrations for 2000+ developers (SVN/Bitbucket -> GitHub) — completed 2 months ahead of schedule
-                - Deployed Backstage.io at Fortune 500 clients — reduced engineer onboarding from 4 weeks to 3 days
+                - Led RearPortal (Backstage.io product) from 0 to \$2M ARR, securing Broadcom and McKinsey through Spotify partnership
+                - Conducted DevSecOps maturity assessment across Broadcom acquisitions (CA, Symantec, VMware), winning \$1M+ follow-on work
+                - Built IDP for William Hill's 150+ engineers with 300+ self-service patterns, reducing market launch from 6 months to 2 weeks
+                - Led GitHub Enterprise migrations for 2000+ developers (SVN/Bitbucket to GitHub), completed 2 months ahead of schedule
             ]
         )
 
@@ -154,8 +149,7 @@
             emph("02/2020 - 01/2022"),
             location: "Gurugram, India",
             [
-                - Built cloud consulting practice from zero — established AWS/Kubernetes methodology, hired initial team
-                - Delivered AI model orchestration platform for Reliance Jio University (Kubernetes, Seldon Core, gRPC) — sponsored by Chief Data Officer
+                - Delivered AI model orchestration platform for Reliance Jio University (Kubernetes, Seldon Core, gRPC), sponsored by Chief Data Officer
             ]
         )
     ],
@@ -168,24 +162,16 @@
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
             emph("07/2017 - 05/2021"),
             [
-                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6) — Gold Medalist, Dean's List I-VIII
+                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6), Gold Medalist, Dean's List I-VIII
             ]
         )
     ],
 )
 
 #resume_section(
-    "Awards",
+    "Awards & Certifications",
     [
-        - *GitHub Stars Award (2021, 2022, 2023)* – Recognized by Microsoft for open source evangelism and developer community building across India
-        - *SREDay Community Ambassador (2026)* – Selected as community ambassador for SREDay global conference
-    ],
-)
-
-#resume_section(
-    "Certifications",
-    [
-        - *GitHub Advanced Security Certified* (02/2023)  |  *GitHub Administration Certified* (01/2023)  |  *GitHub Actions Certified* (12/2022)
+        - *GitHub Stars Award (2021, 2022, 2023)* by Microsoft | *SREDay Community Ambassador (2026)* | *GitHub Advanced Security* (02/2023) | *GitHub Administration* (01/2023) | *GitHub Actions* (12/2022)
     ],
     print_bottom_line: true,
 )
