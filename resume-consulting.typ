@@ -1,8 +1,8 @@
 #set text(font: "New Computer Modern")
 #set page(
     margin: (
-        left: 0.5in,
-        right: 0.5in, 
+        left: 0.45in,
+        right: 0.45in, 
         top: 0.35in,
         bottom: 0.35in,
     ),
@@ -12,13 +12,10 @@
 #let lightestgray = rgb("A9A9A9")
 #let lightergray = rgb("626262")
 #let lightgray = rgb("595959")
-#let midgray = rgb("393939")
-#let darkgray = rgb("292929")
-#let verydarkgray = rgb("191919")
 
 #show text: set text(0.9em)
 #show link: set text(fill: link_colour)
-#set par(leading: 0.43em)
+#set par(leading: 0.40em)
 
 #show list: set list(marker: [-])
 
@@ -35,7 +32,7 @@
             #v(-0.5em)
             #text(size: 0.9em, fill: lightergray)[#location]
         ]
-        #v(-0.6em) #description
+        #v(-0.7em) #description
     ]
 }
 
@@ -44,7 +41,7 @@
         #grid(
             columns: (2fr, 10fr),
             column-gutter: 0.2em,
-            row-gutter: 0.8em,
+            row-gutter: 0.7em,
             line(length: 100%, stroke: 2.5pt + lightgray),
             line(length: 100%, stroke: 2.5pt + lightestgray),
             smallcaps(section_name),
@@ -84,7 +81,7 @@
 #resume_section(
     "Summary",
     [
-        Practice Leader for FinAIOps, Platform Engineering, and Observability with 6+ years building and selling enterprise platform programs to Fortune 500 buyers. Grew an enterprise developer experience product from zero to \$2M ARR and delivered \$7M+ in documented client infrastructure savings. Now scaling a global practice across four regions from India HQ. Three-time GitHub Stars Award Winner and SREDay Community Ambassador.
+        Practice Leader for FinAIOps, Platform Engineering, and Observability with 6+ years building and selling enterprise platform programs to Fortune 500 buyers. Grew an enterprise developer experience product from zero to \$2M ARR and delivered \$7M+ in documented client infrastructure savings. Now scaling a global practice across five markets from India HQ. Three-time GitHub Stars Award Winner and SREDay Community Ambassador.
     ],
 )
 
@@ -109,9 +106,8 @@
             emph("08/2026 - Present"),
             location: "New Delhi, India",
             [
-                - Leading global FinAIOps, Platform Engineering, and Observability practice from India HQ, taking offerings to market across the US, UK, South Africa, EMEA, Middle East, and Australia
-                - Won and delivering a commercial Backstage.io partnership with Spotify, positioning enterprise Developer Experience as a repeatable offering across the Fortune 500 client base
-                - Commercializing an AI-native FinOps platform as a delivery accelerator, built on \$7M+ of proven client savings from prior engagements
+                - Leading global FinAIOps, Platform Engineering, and Observability practice from India HQ, taking offerings to market across five markets: the US, UK, South Africa, Middle East, and Australia
+                - Won and delivering a commercial Backstage.io partnership with Spotify, packaging enterprise Developer Experience as a repeatable Fortune 500 offering
             ]
         )
 
@@ -120,21 +116,19 @@
             emph("07/2024 - 07/2026"),
             location: "Jersey City, NJ | Client: Caesars Entertainment",
             [
-                - Architected the regulatory data platform across 3 EKS clusters, 15 AWS accounts, and 35 US states for compliance
-                - Led Graviton migration (100+ nodes) with zero downtime, achieving 40% compute cost reduction via FluxCD/Karpenter
-                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) with automated scanning across 15 accounts, delivering \$2M+ in documented annual savings
-                - Designed 536-connector Kafka Connect pipeline (Snowflake/S3 sinks), reducing Snowflake API calls by 50% and eliminating rate limiting through connector topology and buffer tuning
-                - Delivered \$5M infrastructure optimization across RDS, S3 Intelligent Tiering, and KMS batch processing (94% reduction)
+                - Architected the regulatory data platform across 3 EKS clusters, 15 AWS accounts, and 35 US states, leading a zero-downtime Graviton migration of 100+ nodes that cut compute costs 40%
+                - Delivered \$7M+ in documented client savings through an AI-powered FinOps platform (AWS Bedrock + FastAPI) scanning 15 accounts, plus RDS right-sizing, S3 Intelligent Tiering, and KMS batch processing (94% reduction)
+                - Designed 536-connector Kafka Connect pipeline (Snowflake/S3 sinks), cutting Snowflake API calls 50% and eliminating rate limiting through topology and buffer tuning
                 - Reduced P0 incidents from 1,000 to 40/quarter through self-healing GitOps, OpenTelemetry, and automated RCA workflows
             ]
         )
 
         #lines_with_date_and_description(
-            strong("Principal DevOps Engineer & Solutions Architect") + ", StatusNeo (Consulting)",
+            strong("Principal DevOps & Solutions Architect") + ", StatusNeo (Consulting)",
             emph("01/2022 - 07/2024"),
             location: "Gurugram, India | Clients: Broadcom, McKinsey, William Hill",
             [
-                - Led RearPortal (Backstage.io product) from 0 to \$2M ARR, securing Broadcom and McKinsey through Spotify partnership
+                - Led RearPortal (Backstage.io product) from 0 to \$2M ARR, securing Broadcom and McKinsey as anchor clients
                 - Conducted DevSecOps maturity assessment across Broadcom acquisitions (CA, Symantec, VMware), winning \$1M+ follow-on work
                 - Built IDP for William Hill's 150+ engineers with 300+ self-service patterns, reducing market launch from 6 months to 2 weeks
                 - Led GitHub Enterprise migrations for 2000+ developers (SVN/Bitbucket to GitHub), completed 2 months ahead of schedule
@@ -146,7 +140,7 @@
             emph("02/2020 - 01/2022"),
             location: "Gurugram, India",
             [
-                - Founding engineer (employee \#5) through scale to 500+ people and market launches across India, UK, Middle East, and USA; established the Backstage.io Center of Excellence that became the firm's enterprise Developer Experience practice
+                - Founding engineer (employee \#5) through scale to 500+ people across India, UK, Middle East, and USA; established the Backstage.io Center of Excellence that became the firm's enterprise Developer Experience practice
                 - Delivered AI model orchestration platform for Reliance Jio University (Kubernetes, Seldon Core, gRPC) sponsored by the Chief Data Officer, establishing the client's AI platform practice
             ]
         )
@@ -154,7 +148,7 @@
 )
 
 #resume_section(
-    "Education",
+    "Education & Awards",
     [
         #lines_with_date_and_description(
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
@@ -163,29 +157,8 @@
                 #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6), Gold Medalist, Dean's List I-VIII
             ]
         )
+
+        - *Awards*: GitHub Stars (2021-23) by Microsoft | SREDay Community Ambassador (2026) | GitHub Advanced Security, Administration & Actions Certified
+        - *Speaking*: SREDay NYC, London, SF, Seattle | GitHub Satellite India | KonfHub
     ],
 )
-
-#resume_section(
-    "Speaking",
-    [
-        - *SREDay* NYC, London, San Francisco, and Seattle — Platform Engineering, FinOps, and Developer Experience at enterprise scale
-        - *GitHub Satellite India*, *KonfHub*, and *Harness HQ San Francisco* — open source advocacy and platform tooling
-    ],
-)
-
-#resume_section(
-    "Awards & Certifications",
-    [
-        - *GitHub Stars Award (2021, 2022, 2023)* by Microsoft | *SREDay Community Ambassador (2026)* | *GitHub Advanced Security* (02/2023) | *GitHub Administration* (01/2023) | *GitHub Actions* (12/2022)
-    ],
-    print_bottom_line: true,
-)
-
-#align(start + bottom)[
-    #text(gray)[
-      Last updated on #datetime.today().display(
-        "[month repr:short] [day], [year]",
-      ). Download the most recent version from #link("https://github.com/nishkarshraj/resume/releases/download/latest/resume-consulting.pdf")[here].
-    ]
-]
