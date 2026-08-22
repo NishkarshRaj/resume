@@ -81,18 +81,18 @@
 #resume_section(
     "Summary",
     [
-        Practice Leader - FinAIOps, Platform Engineering & Observability with 6+ years architecting cloud infrastructure for Fortune 500 clients globally. Delivered \$7M+ in infrastructure savings through AI-native FinOps, multi-cluster EKS platforms, and enterprise developer experience programs. Three-time GitHub Stars Award Winner. SREDay Community Ambassador (2026).
+        Staff Platform Engineer with 6+ years architecting cloud infrastructure and developer platforms for Fortune 500 organizations across the US, UK, and India. Delivered \$7M+ in infrastructure savings and reduced production incidents by 96% while operating multi-cluster EKS platforms across 35 regulated jurisdictions. Built AI-native FinOps tooling on AWS Bedrock. Three-time GitHub Stars Award Winner.
     ],
 )
 
 #resume_section(
     "Skills",
     [
-        *Cloud & Platform*: AWS (EKS, RDS, EC2, S3, KMS, MSK), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker, Backstage.io, GitOps, Istio, CI/CD (GitLab, GitHub Actions)
+        *Cloud & Platform*: AWS (EKS, RDS, EC2, S3, KMS, MSK, Bedrock), Kubernetes, Terraform, Terragrunt, Helm, Helmfile, FluxCD, Karpenter, Docker, Backstage.io, Istio, GitOps
 
-        *Data & Observability*: Strimzi Kafka Connect, Snowflake, Apache Airflow, CloudNativePG, Redis, PostgreSQL, OpenTelemetry, Dynatrace, New Relic, Prometheus, distributed tracing
+        *Data & Observability*: Strimzi Kafka Connect, Snowflake, Apache Airflow, CloudNativePG, PostgreSQL, Redis, OpenTelemetry, Dynatrace, New Relic, Prometheus, distributed tracing
 
-        *FinAIOps & Languages*: AWS Bedrock, Claude, AI-native cost optimization, agentic remediation, multi-cloud scanning (AWS + GCP), Python, Bash, Go, Java
+        *Languages & CI/CD*: Python, Bash, Go, Java, GitLab CI, GitHub Actions
     ],
 )
 
@@ -100,25 +100,15 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Practice Leader") + ", StatusNeo",
-            emph("08/2026 – Present"),
-            location: "New Delhi, India",
-            [
-                - Building FinAIOps AI Platform as a commercial accelerator targeting Fortune 500 enterprises across US, UK, South Africa, EMEA, Middle East, and Australia
-                - Won and delivering commercial Backstage partnership with Spotify to implement enterprise Developer Experience at scale across global clients
-            ]
-        )
-
-        #lines_with_date_and_description(
             strong("Staff Platform Engineer") + ", Caesars Entertainment (via StatusNeo)",
-            emph("07/2024 – 07/2026"),
-            location: "Jersey City, New Jersey",
+            emph("07/2024 – Present"),
+            location: "Jersey City, NJ, USA -> New Delhi, India",
             [
-                - Architected multi-cluster EKS platform (3 clusters, 100+ Graviton nodes, 15 AWS accounts) for 35-state regulatory compliance, designed namespace isolation per state, led ARM64 migration achieving 40% cost reduction
-                - Designed high-throughput Kafka pipeline (536 Strimzi connectors) streaming to Snowflake/S3, optimized connector topology reducing Snowflake API calls by 50% while maintaining 99.9% uptime
-                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) across 15 accounts, delivering \$2M+ in documented annual savings; drove \$5M additional optimization across RDS right-sizing, S3 Intelligent Tiering, and KMS batch processing (94% reduction)
-                - Architected Airflow v2 to v3 zero-downtime migration across 3,400+ DAGs with parallel instances and per-state feature flags, delivering \$650K annual licensing savings
-                - Built observability stack with Dynatrace and custom OpenTelemetry metrics, reducing MTTR through automated RCA for Karpenter, Snowflake, and Redis incidents
+                - Architected multi-cluster EKS platform (3 clusters, 100+ Graviton nodes, 15 AWS accounts) serving 35-state regulatory compliance, designed per-state namespace isolation and led ARM64 migration achieving 40% compute cost reduction with zero downtime
+                - Rebuilt platform reliability architecture with FluxCD operators, Karpenter autoscaling, and custom OpenTelemetry instrumentation, reducing P0 incidents from 1,000 to 40 per quarter (96%) and increasing deployment frequency 10x
+                - Designed high-throughput Kafka pipeline (536 Strimzi connectors) streaming to Snowflake and S3, optimized connector topology reducing Snowflake API calls by 50% while sustaining 99.9% uptime through peak betting events
+                - Built AI-native FinOps platform on AWS Bedrock and FastAPI scanning 15 AWS accounts, identifying \$2M in annual savings; delivered a further \$5M through RDS right-sizing, S3 Intelligent Tiering, and KMS batch processing (94% reduction)
+                - Architected Airflow v2 to v3 zero-downtime migration across 3,400+ DAGs using parallel instances, fresh CloudNativePG databases, and per-state feature flags, eliminating \$650K in annual licensing
             ]
         )
 
@@ -127,10 +117,10 @@
             emph("01/2022 – 07/2024"),
             location: "Gurugram, India",
             [
-                - Architected enterprise Backstage.io platform (RearPortal) for 2000+ engineers, grew product from 0 to \$2M ARR securing Fortune 500 clients including Broadcom and McKinsey
+                - Architected RearPortal, an enterprise Backstage.io platform adopted by 2000+ engineers across Broadcom and McKinsey, designing the plugin architecture and 300+ service templates that reduced engineer onboarding from 4 weeks to 3 days
                 - Built unified observability across Broadcom acquisitions (CA, Symantec, VMware) processing 1M+ deployment events daily with DORA metrics for 10,000+ engineers
-                - Led IDP for William Hill (150+ engineers) reducing provisioning from 2 weeks to 15 minutes, accelerating market launch from 6 months to 2 weeks
-                - Microsoft GitHub Enterprise Migration Partner — led zero-downtime migrations for Broadcom and Cloud Software Group, modernising version control for 2000+ developers and completing 2 months ahead of schedule
+                - Led IDP for William Hill (150+ engineers) reducing infrastructure provisioning from 2 weeks to 15 minutes, accelerating new market launch from 6 months to 2 weeks
+                - Led zero-downtime GitHub Enterprise migrations for Broadcom and Cloud Software Group as a Microsoft migration partner, modernizing version control for 2000+ developers and completing 2 months ahead of schedule
             ]
         )
 
@@ -139,7 +129,7 @@
             emph("05/2020 – 01/2022"),
             location: "Gurugram, India",
             [
-                - Architected AI model orchestration on Kubernetes (Seldon Core, gRPC) achieving sub-200ms P95 latency across 50+ ML models in production
+                - Architected AI model orchestration on Kubernetes (Seldon Core, gRPC) achieving sub-200ms P95 latency across 50+ ML models in production for Reliance Jio University
             ]
         )
     ],
@@ -152,11 +142,10 @@
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
             emph("07/2017 – 05/2021"),
             [
-                #emph("B.Tech Computer Science") (CGPA: 9.6), Gold Medalist, Dean's List All Semesters\
-                #text(size: 0.9em, fill: lightergray)[Laureate Group institution -- GitHub, Linux Foundation & IBM academic partner]
+                #emph("B.Tech Computer Science") (CGPA: 9.6), Gold Medalist, Dean's List All Semesters
             ]
         )
 
-        - GitHub Stars Award (2021, 2022, 2023) | SREDay Community Ambassador (2026) | GitHub Advanced Security | GitHub Administration | GitHub Actions Certified
+        - GitHub Stars Award (2021, 2022, 2023) | SREDay Community Ambassador (2026) | GitHub Advanced Security, Administration, and Actions Certified
     ],
 )
