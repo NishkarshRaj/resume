@@ -117,7 +117,7 @@
             location: "Jersey City, NJ | Client: Caesars Entertainment",
             [
                 - Architected the regulatory data platform across 3 EKS clusters, 15 AWS accounts, and 35 US states, leading a zero-downtime Graviton migration of 100+ nodes that cut compute costs 40%
-                - Delivered \$7M+ in documented client savings through an AI-powered FinOps platform (AWS Bedrock + FastAPI) scanning 15 accounts, plus RDS right-sizing, S3 Intelligent Tiering, and KMS batch processing (94% reduction)
+                - Built AI-powered FinOps platform (AWS Bedrock + FastAPI) scanning 15 accounts, delivering \$2M in documented annual savings; drove a further \$5M through RDS right-sizing, S3 Intelligent Tiering, and KMS batch processing (94% reduction)
                 - Designed 536-connector Kafka Connect pipeline (Snowflake/S3 sinks), cutting Snowflake API calls 50% and eliminating rate limiting through topology and buffer tuning
                 - Reduced P0 incidents from 1,000 to 40/quarter through self-healing GitOps, OpenTelemetry, and automated RCA workflows
             ]
@@ -154,7 +154,7 @@
             strong("University of Petroleum and Energy Studies") + ", Dehradun, India",
             emph("07/2017 - 05/2021"),
             [
-                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6), Gold Medalist, Dean's List I-VIII
+                #emph("Bachelor of Technology in Computer Science") (CGPA: 9.6), Gold Medalist, Dean's List All Semesters
             ]
         )
 
